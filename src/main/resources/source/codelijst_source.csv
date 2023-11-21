@@ -1,6 +1,29 @@
-type,uri,dc.id,collection,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
-skos:ConceptScheme,cs:bemonsteringstype,bemonsteringstype,,,Codelijst bemonsteringstype.,,,,,,,Aard van de Bemonstering.,,,,,,,,,,,,,
-skos:Collection,colt:bemonsteringstypes,bemonsteringstypes,,,Collectie van bemonsteringstypes.,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,
-skos:Concept,ct:geroerd,geroerd,colt:bemonsteringstypes,,Geroerd,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,cs:bemonsteringstype
-skos:Concept,ct:ongeroerd,ongeroerd,colt:bemonsteringstypes,,Ongeroerd,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,cs:bemonsteringstype
-skos:Concept,ct:vloeistof,vloeistof,colt:bemonsteringstypes,,Vloeistof,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,cs:bemonsteringstype
+uri;type;dc.id;collection;notation;prefLabel;altLabel;broader;broaderTransitive;broadMatch;changeNote;closeMatch;definition;editorialNote;exactMatch;example;hiddenLabel;historyNote;inScheme;mappingRelation;note;related;relatedMatch;scopeNote;semanticRelation;topConceptOf
+colt:doelboringtypes;skos:Collection;doelboringtypes;;;Collectie van doelboringtypes.;;;;;;;;;;;;;cs:doelboringtype;;;;;;;
+cs:doelboringtype;skos:ConceptScheme;doelboringtype;;;Codelijst doelboringtype.;;;;;;;;;;;;;;;;;;;;
+ct:1;skos:Concept;1;colt:doelboringtypes;;1;;;;;;;Geologisch onderzoek;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:2;skos:Concept;2;colt:doelboringtypes;;2;;;;;;;Exploratie minerale bronnen;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:3;skos:Concept;3;colt:doelboringtypes;;3;;;;;;;Exploitatie minerale bronnen;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:4;skos:Concept;4;colt:doelboringtypes;;4;;;;;;;Exploratie energie bronnen;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:5;skos:Concept;5;colt:doelboringtypes;;5;;;;;;;Exploitatie energie bronnen;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:6;skos:Concept;6;colt:doelboringtypes;;6;;;;;;;Geothermie;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:7;skos:Concept;7;colt:doelboringtypes;;7;;;;;;;Berging;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:8;skos:Concept;8;colt:doelboringtypes;;8;;;;;;;Exploratie ondergrondse opslag;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:9;skos:Concept;9;colt:doelboringtypes;;9;;;;;;;Grondwaterwinning;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:10;skos:Concept;10;colt:doelboringtypes;;10;;;;;;;Geofysisch onderzoek;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:11;skos:Concept;11;colt:doelboringtypes;;11;;;;;;;Hydrogeologisch onderzoek;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:12;skos:Concept;12;colt:doelboringtypes;;12;;;;;;;Geotechnisch onderzoek;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:13;skos:Concept;13;colt:doelboringtypes;;13;;;;;;;Geochemisch onderzoek;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:14;skos:Concept;14;colt:doelboringtypes;;14;;;;;;;Grondwaterkwaliteit monitoring;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:15;skos:Concept;15;colt:doelboringtypes;;15;;;;;;;Grondwaterkwantiteit monitoring;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:16;skos:Concept;16;colt:doelboringtypes;;16;;;;;;;Monitoring vervuilde sites;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:17;skos:Concept;17;colt:doelboringtypes;;17;;;;;;;Drainage en bemaling;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:18;skos:Concept;18;colt:doelboringtypes;;18;;;;;;;Sanering;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:19;skos:Concept;19;colt:doelboringtypes;;19;;;;;;;Infiltratie;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:20;skos:Concept;20;colt:doelboringtypes;;20;;;;;;;Grondwatermonitoring;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:21;skos:Concept;21;colt:doelboringtypes;;21;;;;;;;Kathodische bescherming;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:22;skos:Concept;22;colt:doelboringtypes;;22;;;;;;;Begassing, thermische reiniging;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:23;skos:Concept;23;colt:doelboringtypes;;23;;;;;;;Archeologisch onderzoek;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:24;skos:Concept;24;colt:doelboringtypes;;24;;;;;;;Bodemkundig onderzoek;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:25;skos:Concept;25;colt:doelboringtypes;;25;;;;;;;Exploratie diepe geothermie;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
+ct:26;skos:Concept;26;colt:doelboringtypes;;26;;;;;;;Exploitatie diepe geothermie;;;;;;cs:doelboringtype;;;;;;;cs:doelboringtype
