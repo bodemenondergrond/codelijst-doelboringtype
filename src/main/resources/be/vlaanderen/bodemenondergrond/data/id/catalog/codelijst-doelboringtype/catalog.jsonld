@@ -53,6 +53,10 @@
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            },
             "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtypes.0.1.0.doelboringtypes_rdf",
             "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
@@ -90,10 +94,6 @@
             "dcterms:description": {
                 "@language": "nl",
                 "@value": "Codelijst doelboringtypes, geserialiseerd in rdf/xml bestand."
-            },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
             }
         },
         {
@@ -495,16 +495,16 @@
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
             },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
-            },
             "rdfs:label": {
                 "@language": "nl",
                 "@value": "Codelijst doelboringtypes, in text/csv formaat."
             },
             "dcat:compressFormat": {
                 "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
             },
             "foaf:page": {
                 "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtypes.0.1.0.doelboringtypes_csv.html"
@@ -550,10 +550,6 @@
                 "@language": "nl",
                 "@value": "Codelijst doelboringtypes, geserialiseerd in een xsd bestand met een enumeratie."
             },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
-            },
             "dcterms:format": {
                 "@id": "file_type:XSD"
             },
@@ -577,6 +573,10 @@
             "dcterms:identifier": {
                 "@id": "omg_distribution:codelijst-doelboringtypes.0.1.0.doelboringtypes_xsd"
             },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            },
             "foaf:page": {
                 "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtypes.0.1.0.doelboringtypes_xsd.html"
             },
@@ -584,6 +584,51 @@
             "rdfs:label": {
                 "@language": "nl",
                 "@value": "Codelijst doelboringtypes, in xml xsd-formaat."
+            }
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtype.0.1.0",
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst doelboringtypes, Jar maven package."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-doelboringtype"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "spdx:packageFileName": "codelijst-doelboringtype-0.1.0.jar",
+            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtype",
+            "spdx:versionInfo": "0.1.0",
+            "@type": [
+                "dcat:Distribution",
+                "spdx:Package"
+            ],
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtype.0.1.0",
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-doelboringtype/0.1.0/codelijst-doelboringtype-0.1.0.jar"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst doelboringtypes in jar-formaat."
+            },
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-doelboringtype/0.1.0/codelijst-doelboringtype-0.1.0.jar"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtype.0.1.0"
             }
         },
         {
@@ -632,10 +677,10 @@
                     "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtypes.0.1.0"
                 },
                 {
-                    "@id": "omg_distribution:codelijst-doelboringtypes.0.1.0.doelboringtypes_xsd"
+                    "@id": "omg_distribution:codelijst-doelboringtypes.0.1.0.doelboringtypes_rdf"
                 },
                 {
-                    "@id": "omg_distribution:codelijst-doelboringtypes.0.1.0.doelboringtypes_rdf"
+                    "@id": "omg_distribution:codelijst-doelboringtypes.0.1.0.doelboringtypes_xsd"
                 }
             ],
             "dcterms:accessRights": {
@@ -661,10 +706,6 @@
             },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
-            },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
             },
             "dcterms:title": {
                 "@language": "nl",
@@ -698,11 +739,15 @@
             "dcterms:identifier": {
                 "@id": "omg_dataset:codelijst-doelboringtypes.0.1.0"
             },
+            "owl:versionInfo": "0.1.0",
             "rdfs:label": {
                 "@language": "nl",
                 "@value": "Codelijst doelboringtypes (0.1.0)"
             },
-            "owl:versionInfo": "0.1.0"
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            }
         },
         {
             "@id": "omg_distribution:codelijst-doelboringtypes.0.1.0.doelboringtypes_jsonld",
@@ -710,13 +755,13 @@
             "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
             },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            },
             "rdfs:label": {
                 "@language": "nl",
                 "@value": "Codelijst doelboringtypes, in jsonld rdf-formaat."
-            },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
             },
             "dcterms:format": {
                 "@id": "file_type:JSON_LD"
@@ -767,10 +812,6 @@
             "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/text/turtle"
             },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
-            },
             "dcterms:title": {
                 "@language": "nl",
                 "@value": "Codelijst doelboringtypes in Turtle rdf-formaat."
@@ -791,6 +832,10 @@
             "dcat:downloadURL": {
                 "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtypes.0.1.0.doelboringtypes.ttl"
             },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            },
             "dcterms:description": {
                 "@language": "nl",
                 "@value": "Codelijst doelboringtypes, geserialiseerd in Turtle bestand."
@@ -798,51 +843,6 @@
             "rdfs:label": {
                 "@language": "nl",
                 "@value": "Codelijst doelboringtypes, in Turtle rdf-formaat."
-            }
-        },
-        {
-            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtypes.0.1.0",
-            "spdx:versionInfo": "0.1.0",
-            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtypes",
-            "@type": [
-                "dcat:Distribution",
-                "spdx:Package"
-            ],
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtypes.0.1.0"
-            },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
-            },
-            "spdx:packageFileName": "codelijst-doelboringtypes-0.1.0.jar",
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst doelboringtypes in jar-formaat."
-            },
-            "spdx:downloadLocation": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-doelboringtypes/0.1.0/codelijst-doelboringtypes-0.1.0.jar"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst doelboringtypes, Jar maven package."
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Package codelijst-doelboringtypes"
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtypes.0.1.0",
-            "dcterms:format": {
-                "@id": "file_type:JAR"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-doelboringtypes/0.1.0/codelijst-doelboringtypes-0.1.0.jar"
             }
         },
         {
