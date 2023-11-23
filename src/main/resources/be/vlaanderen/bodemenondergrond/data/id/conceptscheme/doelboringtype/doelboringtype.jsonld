@@ -1,0 +1,594 @@
+{
+    "@graph": [
+        {
+            "@id": "ct:21",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Kathodische bescherming"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "21",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cs:doelboringtype",
+            "skos:definition": {
+                "@language": "nl",
+                "@value": "Beschrijving doel van de boring."
+            },
+            "skos:hasTopConcept": [
+                {
+                    "@id": "ct:12"
+                },
+                {
+                    "@id": "ct:24"
+                },
+                {
+                    "@id": "ct:18"
+                },
+                {
+                    "@id": "ct:25"
+                },
+                {
+                    "@id": "ct:2"
+                },
+                {
+                    "@id": "ct:8"
+                },
+                {
+                    "@id": "ct:3"
+                },
+                {
+                    "@id": "ct:13"
+                },
+                {
+                    "@id": "ct:19"
+                },
+                {
+                    "@id": "ct:26"
+                },
+                {
+                    "@id": "ct:14"
+                },
+                {
+                    "@id": "ct:21"
+                },
+                {
+                    "@id": "ct:4"
+                },
+                {
+                    "@id": "ct:5"
+                },
+                {
+                    "@id": "ct:15"
+                },
+                {
+                    "@id": "ct:22"
+                },
+                {
+                    "@id": "ct:10"
+                },
+                {
+                    "@id": "ct:20"
+                },
+                {
+                    "@id": "ct:16"
+                },
+                {
+                    "@id": "ct:23"
+                },
+                {
+                    "@id": "ct:6"
+                },
+                {
+                    "@id": "ct:1"
+                },
+                {
+                    "@id": "ct:9"
+                },
+                {
+                    "@id": "ct:7"
+                },
+                {
+                    "@id": "ct:11"
+                },
+                {
+                    "@id": "ct:17"
+                }
+            ],
+            "dc:identifier": "doelboringtype",
+            "@type": "skos:ConceptScheme",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Codelijst doelboringtype."
+            }
+        },
+        {
+            "@id": "ct:11",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Hydrogeologisch onderzoek"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "11",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:3",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Exploitatie minerale bronnen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "3",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:9",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Grondwaterwinning"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "9",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:17",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Drainage en bemaling"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "17",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:20",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Grondwatermonitoring"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "20",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:26",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Exploitatie diepe geothermie"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "26",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:12",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Geotechnisch onderzoek"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "12",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:24",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Bodemkundig onderzoek"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "24",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:18",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Sanering"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "18",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:25",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Exploratie diepe geothermie"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "25",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:2",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Exploratie minerale bronnen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "2",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:8",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Exploratie ondergrondse opslag"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "8",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:13",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Geochemisch onderzoek"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "13",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:19",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Infiltratie"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "19",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:14",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Grondwaterkwaliteit monitoring"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "14",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:4",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Exploratie energie bronnen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "4",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:5",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Exploitatie energie bronnen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "5",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:15",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Grondwaterkwantiteit monitoring"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "15",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:22",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Begassing"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:altLabel": {
+                "@language": "nl",
+                "@value": " thermische reiniging"
+            },
+            "dc:identifier": "22",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:10",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Geofysisch onderzoek"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "10",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:16",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Monitoring vervuilde sites"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "16",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:23",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Archeologisch onderzoek"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "23",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:6",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Geothermie"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "6",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:1",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Geologisch onderzoek"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "1",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:7",
+            "skos:topConceptOf": {
+                "@id": "cs:doelboringtype"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Berging"
+            },
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "dc:identifier": "7",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "colt:doelboringtypes",
+            "skos:member": [
+                {
+                    "@id": "ct:10"
+                },
+                {
+                    "@id": "ct:17"
+                },
+                {
+                    "@id": "ct:11"
+                },
+                {
+                    "@id": "ct:3"
+                },
+                {
+                    "@id": "ct:1"
+                },
+                {
+                    "@id": "ct:16"
+                },
+                {
+                    "@id": "ct:2"
+                },
+                {
+                    "@id": "ct:7"
+                },
+                {
+                    "@id": "ct:25"
+                },
+                {
+                    "@id": "ct:24"
+                },
+                {
+                    "@id": "ct:15"
+                },
+                {
+                    "@id": "ct:6"
+                },
+                {
+                    "@id": "ct:23"
+                },
+                {
+                    "@id": "ct:21"
+                },
+                {
+                    "@id": "ct:22"
+                },
+                {
+                    "@id": "ct:9"
+                },
+                {
+                    "@id": "ct:14"
+                },
+                {
+                    "@id": "ct:13"
+                },
+                {
+                    "@id": "ct:26"
+                },
+                {
+                    "@id": "ct:5"
+                },
+                {
+                    "@id": "ct:4"
+                },
+                {
+                    "@id": "ct:20"
+                },
+                {
+                    "@id": "ct:18"
+                },
+                {
+                    "@id": "ct:12"
+                },
+                {
+                    "@id": "ct:19"
+                },
+                {
+                    "@id": "ct:8"
+                }
+            ],
+            "skos:inScheme": {
+                "@id": "cs:doelboringtype"
+            },
+            "@type": "skos:Collection",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Collectie van doelboringtypes."
+            },
+            "dc:identifier": "doelboringtypes"
+        }
+    ],
+    "@context": {
+        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/",
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtypes/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+    }
+}

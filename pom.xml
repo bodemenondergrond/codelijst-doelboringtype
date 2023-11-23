@@ -9,10 +9,10 @@
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId> <!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
   <artifactId>codelijst-doelboringtype</artifactId> <!-- e.g. codelijst-testrepo -->
-  <version>0.1.1-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
+  <version>0.1.0-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
   <packaging>jar</packaging>
 
-  <name>codelijst-boortype</name> <!-- e.g. codelijst-testrepo -->
+  <name>codelijst-doelboringtype</name> <!-- e.g. codelijst-testrepo -->
 
 
   <scm>

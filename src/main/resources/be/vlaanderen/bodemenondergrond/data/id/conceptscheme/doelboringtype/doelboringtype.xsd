@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="doelboringtype">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/19"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/15"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/17"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/9"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/7"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/1"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/23"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/11"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/25"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/13"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/5"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/21"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/3"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/16"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/26"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/18"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/8"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/6"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/12"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/22"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/14"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/24"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/4"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/10"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/20"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/2"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

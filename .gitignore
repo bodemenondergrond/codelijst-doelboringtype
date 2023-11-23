@@ -1,0 +1,10 @@
+#build
+.class
+
+#IDE tools
+.idea/
+target/
+*.project
+*.classpath
+*.iml
+.settings/
