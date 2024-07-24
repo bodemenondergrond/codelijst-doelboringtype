@@ -8,3 +8,7 @@ target/
 *.classpath
 *.iml
 .settings/
+node_modules/
+codelijst-doelboringtype.iml
+src/.env
+src/utils/setenv.js

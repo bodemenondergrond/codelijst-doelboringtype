@@ -1,178 +1,198 @@
-@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtypes/> .
-@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
-@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/> .
-@prefix dc:   <http://purl.org/dc/elements/1.1/> .
-@prefix dct:  <http://purl.org/dc/terms/> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix conceptscheme: <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.bodemenondergrond.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-ct:21   rdf:type           skos:Concept ;
-        dc:identifier      "21" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Kathodische bescherming"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:9    rdf:type           skos:Concept ;
-        dc:identifier      "9" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Grondwaterwinning"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:3    rdf:type           skos:Concept ;
-        dc:identifier      "3" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Exploitatie minerale bronnen"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:11   rdf:type           skos:Concept ;
-        dc:identifier      "11" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Hydrogeologisch onderzoek"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:17   rdf:type           skos:Concept ;
-        dc:identifier      "17" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Drainage en bemaling"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:20   rdf:type           skos:Concept ;
-        dc:identifier      "20" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Grondwatermonitoring"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:26   rdf:type           skos:Concept ;
-        dc:identifier      "26" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Exploitatie diepe geothermie"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-cs:doelboringtype  rdf:type  skos:ConceptScheme ;
-        dc:identifier       "doelboringtype" ;
-        skos:definition     "Beschrijving doel van de boring."@nl ;
-        skos:hasTopConcept  ct:12 , ct:24 , ct:18 , ct:2 , ct:25 , ct:8 , ct:3 , ct:13 , ct:19 , ct:14 , ct:26 , ct:21 , ct:4 , ct:5 , ct:15 , ct:10 , ct:22 , ct:20 , ct:16 , ct:23 , ct:6 , ct:1 , ct:9 , ct:7 , ct:11 , ct:17 ;
-        skos:prefLabel      "Codelijst doelboringtype."@nl .
-
-ct:8    rdf:type           skos:Concept ;
-        dc:identifier      "8" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Exploratie ondergrondse opslag"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:2    rdf:type           skos:Concept ;
-        dc:identifier      "2" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Exploratie minerale bronnen"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:10   rdf:type           skos:Concept ;
-        dc:identifier      "10" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Geofysisch onderzoek"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:16   rdf:type           skos:Concept ;
-        dc:identifier      "16" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Monitoring vervuilde sites"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:25   rdf:type           skos:Concept ;
-        dc:identifier      "25" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Exploratie diepe geothermie"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-colt:doelboringtypes  rdf:type  skos:Collection ;
-        dc:identifier   "doelboringtypes" ;
-        skos:inScheme   cs:doelboringtype ;
-        skos:member     ct:10 , ct:17 , ct:11 , ct:3 , ct:1 , ct:16 , ct:2 , ct:25 , ct:7 , ct:24 , ct:15 , ct:6 , ct:23 , ct:21 , ct:22 , ct:9 , ct:14 , ct:13 , ct:26 , ct:5 , ct:4 , ct:20 , ct:18 , ct:12 , ct:19 , ct:8 ;
-        skos:prefLabel  "Collectie van doelboringtypes."@nl .
-
-ct:1    rdf:type           skos:Concept ;
-        dc:identifier      "1" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Geologisch onderzoek"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:7    rdf:type           skos:Concept ;
-        dc:identifier      "7" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Berging"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:15   rdf:type           skos:Concept ;
-        dc:identifier      "15" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Grondwaterkwantiteit monitoring"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:24   rdf:type           skos:Concept ;
-        dc:identifier      "24" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Bodemkundig onderzoek"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:6    rdf:type           skos:Concept ;
-        dc:identifier      "6" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Geothermie"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:14   rdf:type           skos:Concept ;
-        dc:identifier      "14" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Grondwaterkwaliteit monitoring"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:23   rdf:type           skos:Concept ;
-        dc:identifier      "23" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Archeologisch onderzoek"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:5    rdf:type           skos:Concept ;
-        dc:identifier      "5" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Exploitatie energie bronnen"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:13   rdf:type           skos:Concept ;
-        dc:identifier      "13" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Geochemisch onderzoek"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:19   rdf:type           skos:Concept ;
-        dc:identifier      "19" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Infiltratie"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:22   rdf:type           skos:Concept ;
-        dc:identifier      "22" ;
-        skos:altLabel      " thermische reiniging"@nl ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Begassing"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:4    rdf:type           skos:Concept ;
-        dc:identifier      "4" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Exploratie energie bronnen"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:12   rdf:type           skos:Concept ;
-        dc:identifier      "12" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Geotechnisch onderzoek"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
-
-ct:18   rdf:type           skos:Concept ;
-        dc:identifier      "18" ;
-        skos:inScheme      cs:doelboringtype ;
-        skos:prefLabel     "Sanering"@nl ;
-        skos:topConceptOf  cs:doelboringtype .
+collectie:doelboringtypes dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.doelboringtype.doelboringtypes";
+    a skos:Collection;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/10>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/11>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/12>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/13>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/14>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/15>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/16>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/17>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/18>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/19>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/20>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/21>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/23>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/24>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/25>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/26>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/7>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/9>;
+    skos:prefLabel "Collectie van doelboringtypes."@nl.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/10> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.10";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Geofysisch onderzoek"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/11> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.11";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Hydrogeologisch onderzoek"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/12> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.12";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Geotechnisch onderzoek"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/13> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.13";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Geochemisch onderzoek"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/14> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.14";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Grondwaterkwaliteit monitoring"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/15> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.15";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Grondwaterkwantiteit monitoring"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/16> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.16";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Monitoring vervuilde sites"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/17> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.17";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Drainage en bemaling"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/18> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.18";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Sanering"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/19> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.19";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Infiltratie"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/1> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Geologisch onderzoek"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/20> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.20";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Grondwatermonitoring"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/21> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.21";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Kathodische bescherming"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.22";
+    a skos:Concept;
+    skos:altLabel "thermische reiniging"@nl;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Begassing"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/23> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.23";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Archeologisch onderzoek"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/24> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.24";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Bodemkundig onderzoek"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/25> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.25";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Exploratie diepe geothermie"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/26> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.26";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Exploitatie diepe geothermie"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/2> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Exploratie minerale bronnen"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/3> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.3";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Exploitatie minerale bronnen"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/4> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.4";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Exploratie energie bronnen"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/5> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.5";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Exploitatie energie bronnen"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/6> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.6";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Geothermie"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/7> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.7";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Berging"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/8> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.8";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Exploratie ondergrondse opslag"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/9> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.9";
+    a skos:Concept;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:prefLabel "Grondwaterwinning"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
+conceptscheme:doelboringtype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.doelboringtype";
+    a skos:ConceptScheme;
+    skos:definition "Beschrijving doel van de boring."@nl;
+    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/10>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/11>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/12>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/13>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/14>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/15>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/16>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/17>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/18>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/19>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/20>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/21>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/23>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/24>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/25>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/26>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/7>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/9>;
+    skos:note "Beschrijving doel van de boring."@nl;
+    skos:prefLabel "Codelijst doelboringtype."@nl.

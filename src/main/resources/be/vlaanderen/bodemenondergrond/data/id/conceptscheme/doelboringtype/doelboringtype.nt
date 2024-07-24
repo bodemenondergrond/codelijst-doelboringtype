@@ -1,0 +1,192 @@
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.collection.doelboringtype.doelboringtypes" .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/10> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/11> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/12> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/13> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/14> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/15> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/16> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/17> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/18> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/19> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/1> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/20> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/21> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/23> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/24> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/25> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/26> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/2> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/3> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/4> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/5> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/6> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/7> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/8> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/9> .
+<https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/doelboringtypes> <http://www.w3.org/2004/02/skos/core#prefLabel> "Collectie van doelboringtypes."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/10> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.10" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/10> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geofysisch onderzoek"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/10> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/11> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.11" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/11> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/11> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hydrogeologisch onderzoek"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/11> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/12> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.12" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/12> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/12> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geotechnisch onderzoek"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/12> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/13> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.13" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/13> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/13> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geochemisch onderzoek"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/13> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/14> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.14" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/14> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/14> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grondwaterkwaliteit monitoring"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/14> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/15> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.15" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/15> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/15> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grondwaterkwantiteit monitoring"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/15> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/16> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.16" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/16> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/16> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monitoring vervuilde sites"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/16> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/17> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.17" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/17> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/17> <http://www.w3.org/2004/02/skos/core#prefLabel> "Drainage en bemaling"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/17> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/18> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.18" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/18> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/18> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sanering"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/18> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/19> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.19" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/19> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/19> <http://www.w3.org/2004/02/skos/core#prefLabel> "Infiltratie"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/19> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/1> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.1" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geologisch onderzoek"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/1> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/20> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.20" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/20> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/20> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grondwatermonitoring"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/20> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/21> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.21" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/21> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/21> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kathodische bescherming"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/21> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.22" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22> <http://www.w3.org/2004/02/skos/core#altLabel> "thermische reiniging"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22> <http://www.w3.org/2004/02/skos/core#prefLabel> "Begassing"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/23> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.23" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/23> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/23> <http://www.w3.org/2004/02/skos/core#prefLabel> "Archeologisch onderzoek"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/23> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/24> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.24" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/24> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/24> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bodemkundig onderzoek"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/24> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/25> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.25" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/25> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/25> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exploratie diepe geothermie"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/25> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/26> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.26" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/26> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/26> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exploitatie diepe geothermie"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/26> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/2> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.2" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exploratie minerale bronnen"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/2> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/3> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.3" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exploitatie minerale bronnen"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/3> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/4> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.4" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exploratie energie bronnen"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/4> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/5> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.5" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exploitatie energie bronnen"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/5> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/6> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.6" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geothermie"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/6> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/7> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.7" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/7> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Berging"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/7> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/8> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.8" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/8> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exploratie ondergrondse opslag"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/8> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/9> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.9" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/9> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/9> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grondwaterwinning"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/9> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.doelboringtype" .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#definition> "Beschrijving doel van de boring."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/10> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/11> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/12> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/13> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/14> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/15> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/16> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/17> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/18> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/19> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/1> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/20> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/21> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/22> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/23> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/24> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/25> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/26> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/2> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/3> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/4> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/5> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/6> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/7> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/8> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/9> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#note> "Beschrijving doel van de boring."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/doelboringtype> <http://www.w3.org/2004/02/skos/core#prefLabel> "Codelijst doelboringtype."@nl .

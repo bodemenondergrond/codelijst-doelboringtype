@@ -1,0 +1,29 @@
+uri,dc.identifier,collections,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+conceptscheme:doelboringtype,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.doelboringtype,,,Codelijst doelboringtype.,,,,,,,Beschrijving doel van de boring.,,,,,,,,,,,,,
+collectie:doelboringtypes,be.vlaanderen.bodemenondergrond.data.id.collection.doelboringtype.doelboringtypes,,,Collectie van doelboringtypes.,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,
+concept:23,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.23,collectie:doelboringtypes,,Archeologisch onderzoek,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:22,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.22,collectie:doelboringtypes,,Begassing, thermische reiniging,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:7,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.7,collectie:doelboringtypes,,Berging,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:24,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.24,collectie:doelboringtypes,,Bodemkundig onderzoek,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:17,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.17,collectie:doelboringtypes,,Drainage en bemaling,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:26,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.26,collectie:doelboringtypes,,Exploitatie diepe geothermie,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:5,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.5,collectie:doelboringtypes,,Exploitatie energie bronnen,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:3,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.3,collectie:doelboringtypes,,Exploitatie minerale bronnen,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:25,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.25,collectie:doelboringtypes,,Exploratie diepe geothermie,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:4,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.4,collectie:doelboringtypes,,Exploratie energie bronnen,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:2,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.2,collectie:doelboringtypes,,Exploratie minerale bronnen,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:8,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.8,collectie:doelboringtypes,,Exploratie ondergrondse opslag,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:13,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.13,collectie:doelboringtypes,,Geochemisch onderzoek,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:10,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.10,collectie:doelboringtypes,,Geofysisch onderzoek,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:1,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.1,collectie:doelboringtypes,,Geologisch onderzoek,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:12,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.12,collectie:doelboringtypes,,Geotechnisch onderzoek,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:6,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.6,collectie:doelboringtypes,,Geothermie,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:14,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.14,collectie:doelboringtypes,,Grondwaterkwaliteit monitoring,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:15,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.15,collectie:doelboringtypes,,Grondwaterkwantiteit monitoring,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:20,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.20,collectie:doelboringtypes,,Grondwatermonitoring,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:9,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.9,collectie:doelboringtypes,,Grondwaterwinning,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:11,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.11,collectie:doelboringtypes,,Hydrogeologisch onderzoek,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:19,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.19,collectie:doelboringtypes,,Infiltratie,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:21,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.21,collectie:doelboringtypes,,Kathodische bescherming,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:16,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.16,collectie:doelboringtypes,,Monitoring vervuilde sites,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype
+concept:18,be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.18,collectie:doelboringtypes,,Sanering,,,,,,,,,,,,,conceptscheme:doelboringtype,,,,,,,conceptscheme:doelboringtype

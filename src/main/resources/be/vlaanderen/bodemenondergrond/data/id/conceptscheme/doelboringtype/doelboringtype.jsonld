@@ -1,594 +1,678 @@
 {
-    "@graph": [
-        {
-            "@id": "ct:21",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Kathodische bescherming"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "21",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cs:doelboringtype",
-            "skos:definition": {
-                "@language": "nl",
-                "@value": "Beschrijving doel van de boring."
-            },
-            "skos:hasTopConcept": [
-                {
-                    "@id": "ct:12"
-                },
-                {
-                    "@id": "ct:24"
-                },
-                {
-                    "@id": "ct:18"
-                },
-                {
-                    "@id": "ct:25"
-                },
-                {
-                    "@id": "ct:2"
-                },
-                {
-                    "@id": "ct:8"
-                },
-                {
-                    "@id": "ct:3"
-                },
-                {
-                    "@id": "ct:13"
-                },
-                {
-                    "@id": "ct:19"
-                },
-                {
-                    "@id": "ct:26"
-                },
-                {
-                    "@id": "ct:14"
-                },
-                {
-                    "@id": "ct:21"
-                },
-                {
-                    "@id": "ct:4"
-                },
-                {
-                    "@id": "ct:5"
-                },
-                {
-                    "@id": "ct:15"
-                },
-                {
-                    "@id": "ct:22"
-                },
-                {
-                    "@id": "ct:10"
-                },
-                {
-                    "@id": "ct:20"
-                },
-                {
-                    "@id": "ct:16"
-                },
-                {
-                    "@id": "ct:23"
-                },
-                {
-                    "@id": "ct:6"
-                },
-                {
-                    "@id": "ct:1"
-                },
-                {
-                    "@id": "ct:9"
-                },
-                {
-                    "@id": "ct:7"
-                },
-                {
-                    "@id": "ct:11"
-                },
-                {
-                    "@id": "ct:17"
-                }
-            ],
-            "dc:identifier": "doelboringtype",
-            "@type": "skos:ConceptScheme",
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Codelijst doelboringtype."
-            }
-        },
-        {
-            "@id": "ct:11",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Hydrogeologisch onderzoek"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "11",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:3",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Exploitatie minerale bronnen"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "3",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:9",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Grondwaterwinning"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "9",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:17",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Drainage en bemaling"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "17",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:20",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Grondwatermonitoring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "20",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:26",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Exploitatie diepe geothermie"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "26",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:12",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Geotechnisch onderzoek"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "12",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:24",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Bodemkundig onderzoek"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "24",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:18",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Sanering"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "18",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:25",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Exploratie diepe geothermie"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "25",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:2",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Exploratie minerale bronnen"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "2",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:8",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Exploratie ondergrondse opslag"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "8",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:13",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Geochemisch onderzoek"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "13",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:19",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Infiltratie"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "19",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:14",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Grondwaterkwaliteit monitoring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "14",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:4",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Exploratie energie bronnen"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "4",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:5",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Exploitatie energie bronnen"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "5",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:15",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Grondwaterkwantiteit monitoring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "15",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:22",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Begassing"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:altLabel": {
-                "@language": "nl",
-                "@value": " thermische reiniging"
-            },
-            "dc:identifier": "22",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:10",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Geofysisch onderzoek"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "10",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:16",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Monitoring vervuilde sites"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "16",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:23",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Archeologisch onderzoek"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "23",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:6",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Geothermie"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "6",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:1",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Geologisch onderzoek"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "1",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:7",
-            "skos:topConceptOf": {
-                "@id": "cs:doelboringtype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Berging"
-            },
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "dc:identifier": "7",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "colt:doelboringtypes",
-            "skos:member": [
-                {
-                    "@id": "ct:10"
-                },
-                {
-                    "@id": "ct:17"
-                },
-                {
-                    "@id": "ct:11"
-                },
-                {
-                    "@id": "ct:3"
-                },
-                {
-                    "@id": "ct:1"
-                },
-                {
-                    "@id": "ct:16"
-                },
-                {
-                    "@id": "ct:2"
-                },
-                {
-                    "@id": "ct:7"
-                },
-                {
-                    "@id": "ct:25"
-                },
-                {
-                    "@id": "ct:24"
-                },
-                {
-                    "@id": "ct:15"
-                },
-                {
-                    "@id": "ct:6"
-                },
-                {
-                    "@id": "ct:23"
-                },
-                {
-                    "@id": "ct:21"
-                },
-                {
-                    "@id": "ct:22"
-                },
-                {
-                    "@id": "ct:9"
-                },
-                {
-                    "@id": "ct:14"
-                },
-                {
-                    "@id": "ct:13"
-                },
-                {
-                    "@id": "ct:26"
-                },
-                {
-                    "@id": "ct:5"
-                },
-                {
-                    "@id": "ct:4"
-                },
-                {
-                    "@id": "ct:20"
-                },
-                {
-                    "@id": "ct:18"
-                },
-                {
-                    "@id": "ct:12"
-                },
-                {
-                    "@id": "ct:19"
-                },
-                {
-                    "@id": "ct:8"
-                }
-            ],
-            "skos:inScheme": {
-                "@id": "cs:doelboringtype"
-            },
-            "@type": "skos:Collection",
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Collectie van doelboringtypes."
-            },
-            "dc:identifier": "doelboringtypes"
-        }
-    ],
     "@context": {
-        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
-        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtypes/",
-        "dct": "http://purl.org/dc/terms/",
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtypes/",
+        "sparql-service-description-graph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#graph",
+            "@type": "@id"
+        },
+        "defaultGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultGraph",
+            "@type": "@id"
+        },
+        "collections": {
+            "@type": "@id",
+            "@reverse": "member"
+        },
+        "id": "@id",
+        "type": {
+            "@id": "@type",
+            "@type": "@id"
+        },
+        "source": {
+            "@id": "http://purl.org/dc/terms/source",
+            "@type": "@id"
+        },
+        "sparql-service-description-name": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#name",
+            "@type": "@id"
+        },
+        "identifier": {
+            "@id": "http://purl.org/dc/terms/identifier",
+            "@type": "@id"
+        },
+        "hasVersion": {
+            "@id": "http://purl.org/dc/terms/hasVersion",
+            "@type": "@id"
+        },
+        "isVersionOf": {
+            "@id": "http://purl.org/dc/terms/isVersionOf",
+            "@type": "@id"
+        },
+        "label": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@language": "nl"
+        },
+        "distribution": {
+            "@id": "http://www.w3.org/ns/dcat#distribution",
+            "@type": "@id"
+        },
+        "alternative": {
+            "@id": "http://purl.org/dc/terms/alternative",
+            "@language": "nl"
+        },
+        "description": {
+            "@id": "http://purl.org/dc/terms/description",
+            "@language": "nl"
+        },
+        "spatial": {
+            "@id": "http://purl.org/dc/terms/spatial",
+            "@type": "@id"
+        },
+        "page": {
+            "@id": "http://xmlns.com/foaf/0.1/page",
+            "@type": "@id"
+        },
+        "theme": {
+            "@id": "http://www.w3.org/ns/dcat#theme",
+            "@type": "@id"
+        },
+        "title": {
+            "@id": "http://purl.org/dc/terms/title",
+            "@language": "nl"
+        },
+        "landingPage": {
+            "@id": "http://www.w3.org/ns/dcat#landingPage",
+            "@type": "@id"
+        },
+        "rightsHolder": {
+            "@id": "http://purl.org/dc/terms/rightsHolder",
+            "@type": "@id"
+        },
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "accrualPeriodicity": {
+            "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+            "@type": "@id"
+        },
+        "publisher": {
+            "@id": "http://purl.org/dc/terms/publisher",
+            "@type": "@id"
+        },
+        "dct.language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contactPoint": {
+            "@id": "http://www.w3.org/ns/dcat#contactPoint",
+            "@type": "@id"
+        },
+        "temporal": {
+            "@id": "http://purl.org/dc/terms/temporal",
+            "@type": "@id"
+        },
+        "issued": {
+            "@id": "http://purl.org/dc/terms/issued",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "accessRights": {
+            "@id": "http://purl.org/dc/terms/accessRights",
+            "@type": "@id"
+        },
+        "license": {
+            "@id": "http://purl.org/dc/terms/license",
+            "@type": "@id"
+        },
+        "accessURL": {
+            "@id": "http://www.w3.org/ns/dcat#accessURL",
+            "@type": "@id"
+        },
+        "compressFormat": {
+            "@id": "http://www.w3.org/ns/dcat#compressFormat",
+            "@type": "@id"
+        },
+        "downloadURL": {
+            "@id": "http://www.w3.org/ns/dcat#downloadURL",
+            "@type": "@id"
+        },
+        "mediaType": {
+            "@id": "http://www.w3.org/ns/dcat#mediaType",
+            "@type": "@id"
+        },
+        "format": {
+            "@id": "http://purl.org/dc/terms/format",
+            "@type": "@id"
+        },
+        "versionInfo": {
+            "@id": "http://spdx.org/rdf/terms#versionInfo"
+        },
+        "packageName": {
+            "@id": "http://spdx.org/rdf/terms#packageName"
+        },
+        "packageFileName": {
+            "@id": "http://spdx.org/rdf/terms#packageFileName"
+        },
+        "downloadLocation": {
+            "@id": "http://spdx.org/rdf/terms#downloadLocation",
+            "@type": "@id"
+        },
+        "relationshipType_packageOf": {
+            "@id": "http://spdx.org/rdf/terms#relationshipType_packageOf",
+            "@type": "@id"
+        },
+        "availableGraphs": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+            "@type": "@id"
+        },
+        "resultFormat": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "@type": "@id"
+        },
+        "feature": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#feature",
+            "@type": "@id"
+        },
+        "supportedLanguage": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "@type": "@id"
+        },
+        "url": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#url",
+            "@type": "@id"
+        },
+        "comment": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "@language": "nl"
+        },
+        "defaultDataset": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+            "@type": "@id"
+        },
+        "endpoint": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "@type": "@id"
+        },
+        "namedGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
+            "@type": "@id"
+        },
+        "homepage": {
+            "@id": "http://xmlns.com/foaf/0.1/homepage",
+            "@type": "@id"
+        },
+        "service": {
+            "@id": "http://www.w3.org/ns/dcat#service",
+            "@type": "@id"
+        },
+        "rootResource": {
+            "@id": "http://rdfs.org/ns/void#rootResource",
+            "@type": "@id"
+        },
+        "dataset": {
+            "@id": "http://www.w3.org/ns/dcat#dataset",
+            "@type": "@id"
+        },
+        "servesDataset": {
+            "@id": "http://www.w3.org/ns/dcat#servesDataset",
+            "@type": "@id"
+        },
+        "endpointDescription": {
+            "@id": "http://www.w3.org/ns/dcat#endpointDescription",
+            "@type": "@id"
+        },
+        "endpointURL": {
+            "@id": "http://www.w3.org/ns/dcat#endpointURL",
+            "@type": "@id"
+        },
+        "conformsTo": {
+            "@id": "http://purl.org/dc/terms/conformsTo",
+            "@type": "@id"
+        },
+        "dc.identifier": {
+            "@id": "http://purl.org/dc/elements/1.1/identifier"
+        },
+        "dc.language": {
+            "@id": "http://purl.org/dc/elements/1.1/language",
+            "@language": "nl"
+        },
+        "dc.source": {
+            "@id": "http://purl.org/dc/elements/1.1/source"
+        },
+        "version": {
+            "@id": "http://www.w3.org/2002/07/owl#versionInfo"
+        },
+        "name": {
+            "@id": "http://spdx.org/rdf/terms#name"
+        },
+        "seeAlso": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inScheme": {
+            "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "@type": "@id"
+        },
+        "topConceptOf": {
+            "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "@type": "@id"
+        },
+        "hasTopConcept": {
+            "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "@type": "@id"
+        },
+        "uri": {
+            "@id": "@id",
+            "@type": "@id"
+        },
+        "prefLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "nl"
+        },
+        "notation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "nl"
+        },
+        "note": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "nl"
+        },
+        "definition": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "nl"
+        },
+        "member": {
+            "@id": "http://www.w3.org/2004/02/skos/core#member",
+            "@type": "@id"
+        },
+        "casNumber": {
+            "@id": "http://dbpedia.org/ontology/casNumber"
+        },
+        "references": {
+            "@id": "http://purl.org/dc/terms/references",
+            "@type": "@id"
+        },
+        "isReferencedBy": {
+            "@id": "http://purl.org/dc/terms/isReferencedBy",
+            "@type": "@id"
+        },
+        "relation": {
+            "@id": "http://purl.org/dc/terms/relation",
+            "@type": "@id"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "broaderTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "broadMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "@type": "@id"
+        },
+        "exactMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
+            "@type": "@id"
+        },
+        "mappingRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+            "@type": "@id"
+        },
+        "broader": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "narrower": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+            "@type": "@id"
+        },
+        "narrowerTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+            "@type": "@id"
+        },
+        "narrowMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+            "@type": "@id"
+        },
+        "semanticRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "belongsTo": {
+            "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+            "@type": "@id"
+        },
+        "concept": "https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/",
+        "collectie": "https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "adms": "http://www.w3.org/ns/adms#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "conceptscheme": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "datasets": "https://datasets.omgeving.vlaanderen.be/",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dcat": "http://www.w3.org/ns/dcat#",
         "dc": "http://purl.org/dc/elements/1.1/",
-        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
-    }
+        "dcterms": "http://purl.org/dc/terms/",
+        "dct": "http://purl.org/dc/terms/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
+        "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",
+        "omg_catalog": "https://data.bodemenondergrond.vlaanderen.be/id/catalog/",
+        "omg_catalog_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/",
+        "omg_collection": "https://data.bodemenondergrond.vlaanderen.be/id/collection/",
+        "omg_dataservice": "https://data.bodemenondergrond.vlaanderen.be/id/dataservice/",
+        "omg_dataset_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/",
+        "omg_dataset": "https://data.bodemenondergrond.vlaanderen.be/id/dataset/",
+        "omg_distribution_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/",
+        "omg_distribution": "https://data.bodemenondergrond.vlaanderen.be/id/distribution/",
+        "omg_graphcollection": "https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/",
+        "omg_graph": "https://data.bodemenondergrond.vlaanderen.be/id/graph/",
+        "omg_id": "https://data.bodemenondergrond.vlaanderen.be/id/",
+        "omg_named_graph": "https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/",
+        "omg_ontology": "https://data.bodemenondergrond.vlaanderen.be/id/ontology/",
+        "omg_package": "https://data.bodemenondergrond.vlaanderen.be/id/package/",
+        "omg_periodoftime": "https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/",
+        "omg_service": "https://data.bodemenondergrond.vlaanderen.be/id/service/",
+        "omg_vcard": "https://data.bodemenondergrond.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "repo": "https://repo.omgeving.vlaanderen.be/artifactory/release/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "ts": "http://www.w3.org/ns/formats/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "void": "http://rdfs.org/ns/void#",
+        "wise": "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@base": "https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/"
+    },
+    "graph": [
+        {
+            "id": "collectie:doelboringtypes",
+            "type": "skos:Collection",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.doelboringtype.doelboringtypes",
+            "inScheme": "conceptscheme:doelboringtype",
+            "member": [
+                "concept:10",
+                "concept:11",
+                "concept:12",
+                "concept:13",
+                "concept:14",
+                "concept:15",
+                "concept:16",
+                "concept:17",
+                "concept:18",
+                "concept:19",
+                "concept:1",
+                "concept:20",
+                "concept:21",
+                "concept:22",
+                "concept:23",
+                "concept:24",
+                "concept:25",
+                "concept:26",
+                "concept:2",
+                "concept:3",
+                "concept:4",
+                "concept:5",
+                "concept:6",
+                "concept:7",
+                "concept:8",
+                "concept:9"
+            ],
+            "prefLabel": "Collectie van doelboringtypes."
+        },
+        {
+            "id": "concept:1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.1",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Geologisch onderzoek",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:10",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.10",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Geofysisch onderzoek",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:11",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.11",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Hydrogeologisch onderzoek",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:12",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.12",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Geotechnisch onderzoek",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:13",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.13",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Geochemisch onderzoek",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:14",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.14",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Grondwaterkwaliteit monitoring",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:15",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.15",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Grondwaterkwantiteit monitoring",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:16",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.16",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Monitoring vervuilde sites",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:17",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.17",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Drainage en bemaling",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:18",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.18",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Sanering",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:19",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.19",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Infiltratie",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.2",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Exploratie minerale bronnen",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:20",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.20",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Grondwatermonitoring",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:21",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.21",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Kathodische bescherming",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:22",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.22",
+            "altLabel": "thermische reiniging",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Begassing",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:23",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.23",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Archeologisch onderzoek",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:24",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.24",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Bodemkundig onderzoek",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:25",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.25",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Exploratie diepe geothermie",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:26",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.26",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Exploitatie diepe geothermie",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.3",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Exploitatie minerale bronnen",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:4",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.4",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Exploratie energie bronnen",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:5",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.5",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Exploitatie energie bronnen",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:6",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.6",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Geothermie",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:7",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.7",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Berging",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:8",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.8",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Exploratie ondergrondse opslag",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "concept:9",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.9",
+            "inScheme": "conceptscheme:doelboringtype",
+            "prefLabel": "Grondwaterwinning",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
+            "id": "conceptscheme:doelboringtype",
+            "type": "skos:ConceptScheme",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.doelboringtype",
+            "definition": "Beschrijving doel van de boring.",
+            "hasTopConcept": [
+                "concept:10",
+                "concept:11",
+                "concept:12",
+                "concept:13",
+                "concept:14",
+                "concept:15",
+                "concept:16",
+                "concept:17",
+                "concept:18",
+                "concept:19",
+                "concept:1",
+                "concept:20",
+                "concept:21",
+                "concept:22",
+                "concept:23",
+                "concept:24",
+                "concept:25",
+                "concept:26",
+                "concept:2",
+                "concept:3",
+                "concept:4",
+                "concept:5",
+                "concept:6",
+                "concept:7",
+                "concept:8",
+                "concept:9"
+            ],
+            "note": "Beschrijving doel van de boring.",
+            "prefLabel": "Codelijst doelboringtype."
+        }
+    ]
 }
