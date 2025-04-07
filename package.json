@@ -7,7 +7,6 @@
   "scripts": {
     "create_metadata": "cd src && node 02_metadata.js"
   },
-
   "keywords": [
     "milieuinfo",
     "Bodem en ondergrond",
@@ -24,6 +23,7 @@
     "child_process": "^1.0.2",
     "dotenv": "^16.4.5",
     "js-yaml": "^4.1.0",
-    "maven-metadata-generator-npm": "^0.2.56"
+    "maven-metadata-generator-npm": "^0.2.59",
+    "package.json": "^0.0.0"
   }
 }

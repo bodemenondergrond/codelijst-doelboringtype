@@ -1,0 +1,414 @@
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/doelboringtype/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix conceptscheme: <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.bodemenondergrond.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> a dct:LicenseDocument.
+ovo:OVO003323 a dct:Agent.
+ovo:OVO003749 a dct:Agent.
+<http://eurovoc.europa.eu/2407> a rdfs:Resource, skos:Concept.
+access_right:PUBLIC a dct:RightsStatement.
+country:BEL a dct:Location.
+datatheme_eu:ENVI a rdfs:Resource, skos:Concept.
+file_type:CSV a dct:MediaTypeOrExtent.
+file_type:JAR a dct:MediaTypeOrExtent.
+file_type:JSON_LD a dct:MediaTypeOrExtent.
+file_type:RDF_N_TRIPLES a dct:MediaTypeOrExtent.
+file_type:RDF_TURTLE a dct:MediaTypeOrExtent.
+file_type:RDF_XML a dct:MediaTypeOrExtent.
+file_type:XLSX a dct:MediaTypeOrExtent.
+frequency:IRREG a dct:Frequency.
+<http://publications.europa.eu/resource/authority/language/NLD> a dct:LinguisticSystem.
+<http://purl.org/dc/dcmitype/Service> a rdfs:Class.
+dct:Agent a rdfs:Class.
+dct:Frequency a rdfs:Class.
+dct:LicenseDocument a rdfs:Class.
+dct:LinguisticSystem a rdfs:Class.
+dct:Location a rdfs:Class.
+dct:MediaType a rdfs:Class.
+dct:MediaTypeOrExtent a rdfs:Class.
+dct:PeriodOfTime a rdfs:Class.
+dct:RightsStatement a rdfs:Class.
+void:Dataset a rdfs:Class.
+spdx:Package a rdfs:Class.
+spdx:SpdxElement a rdfs:Class.
+spdx:SpdxItem a rdfs:Class.
+datatheme_be:ENVI a rdfs:Resource, skos:Concept.
+<http://www.eionet.europa.eu/gemet/concept/10087> a rdfs:Resource, skos:Concept.
+rdfs:Class a rdfs:Class.
+rdfs:Resource a rdfs:Class.
+skos:Concept a rdfs:Class.
+skos:ConceptScheme a rdfs:Class.
+vcard:Kind a rdfs:Class.
+dcat:Catalog a rdfs:Class.
+dcat:DataService a rdfs:Class.
+dcat:Dataset a rdfs:Class.
+dcat:Distribution a rdfs:Class.
+dcat:Resource a rdfs:Class.
+ts:Format a rdfs:Class.
+ts:JSON-LD a ts:Format.
+ts:N-Quads a ts:Format.
+ts:N-Triples a ts:Format.
+ts:RDF_XML a ts:Format.
+ts:SPARQL_Results_CSV a ts:Format.
+ts:SPARQL_Results_JSON a ts:Format.
+ts:SPARQL_Results_XML a ts:Format.
+ts:Turtle a ts:Format.
+ssd:Dataset a rdfs:Class.
+ssd:DereferencesURIs a ssd:Feature.
+ssd:Feature a rdfs:Class.
+ssd:Graph a rdfs:Class.
+ssd:GraphCollection a rdfs:Class.
+ssd:Language a rdfs:Class.
+ssd:NamedGraph a rdfs:Class.
+ssd:SPARQL10Query a ssd:Feature, ssd:Language.
+ssd:Service a rdfs:Class.
+ssd:UnionDefaultGraph a ssd:Feature.
+foaf:Document a rdfs:Class.
+<https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html> a foaf:Document.
+<https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-doelboringtype.html> a foaf:Document.
+<https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-doelboringtype_1.0.0.html> a foaf:Document.
+<https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_csv.html> a foaf:Document.
+<https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_jar.html> a foaf:Document.
+<https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_jsonld.html> a foaf:Document.
+<https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_nt.html> a foaf:Document.
+<https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_ttl.html> a foaf:Document.
+<https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_xlsx.html> a foaf:Document.
+<https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_xsd.html> a foaf:Document.
+omg_catalog:codelijst dct:hasPart omg_dataservice:sparqlendpoint, omg_dataset:codelijst-doelboringtype;
+    a dcat:Catalog, dcat:Dataset, dcat:Resource;
+    rdfs:label "Catalog data.bodemenondergrond.vlaanderen.be"@nl;
+    rdfs:member omg_dataservice:sparqlendpoint, omg_dataset:codelijst-doelboringtype;
+    dcat:dataset omg_dataset:codelijst-doelboringtype;
+    dcat:service omg_dataservice:sparqlendpoint.
+conceptscheme:doelboringtype a skos:ConceptScheme.
+omg_dataservice:sparqlendpoint dc:identifier "be.vlaanderen.bodemenondergrond.data.id.dataservice.sparqlendpoint";
+    dct:description "Sparql endpoint api op de datasets gepubliceerd onder het domein be.vlaanderen.bodemenondergrond.data.id.graph"@nl;
+    dct:identifier omg_dataservice:sparqlendpoint;
+    dct:isPartOf omg_catalog:codelijst;
+    dct:title "Sparql endpoint op de datasets binnen data.bodemenondergrond.vlaanderen.be"@nl;
+    a <http://purl.org/dc/dcmitype/Service>, dcat:DataService, dcat:Resource;
+    rdfs:label "Sparql endpoint op de datasets binnen data.bodemenondergrond.vlaanderen.be"@nl;
+    dcat:endpointDescription omg_service:sparqlservice;
+    dcat:endpointURL <https://data.bodemenondergrond.vlaanderen.be/sparql>;
+    dcat:servesDataset <https://data.bodemenondergrond.vlaanderen.be/id/dataset/codelijst-doelboringtype_1.0.0>.
+omg_dataset:codelijst-doelboringtype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-doelboringtype";
+    dct:accessRights access_right:PUBLIC;
+    dct:accrualPeriodicity frequency:IRREG;
+    dct:alternative "Dataset codelijst-doelboringtype"@nl;
+    dct:description "Deze dataset bevat een lijst van doelboringtypes, die gebruikt worden binnen data.bodemenondergrond.vlaanderen.be"@nl;
+    dct:hasVersion <https://data.bodemenondergrond.vlaanderen.be/id/dataset/codelijst-doelboringtype_1.0.0>;
+    dct:identifier omg_dataset:codelijst-doelboringtype;
+    dct:isPartOf omg_catalog:codelijst;
+    dct:language <http://publications.europa.eu/resource/authority/language/NLD>;
+    dct:license <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
+    dct:publisher ovo:OVO003323;
+    dct:rightsHolder ovo:OVO003749;
+    dct:spatial country:BEL, <https://sws.geonames.org/3337388/>;
+    dct:subject <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    dct:temporal <https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg>;
+    dct:title "codelijst doelboringtype"@nl;
+    void:rootResource conceptscheme:doelboringtype;
+    a void:Dataset, rdfs:Resource, dcat:Dataset, dcat:Resource, ssd:Dataset;
+    rdfs:label "codelijst doelboringtype"@nl;
+    dcat:accessURL <https://github.com/bodemenondergrond/codelijst-doelboringtype.git>;
+    dcat:contactPoint <https://data.omgeving.vlaanderen.be/id/vcard/helpdesk>;
+    dcat:landingPage <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
+    dcat:theme <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    ssd:defaultGraph omg_graph:codelijst-doelboringtype;
+    foaf:page <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>, <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-doelboringtype.html>.
+<https://data.bodemenondergrond.vlaanderen.be/id/dataset/codelijst-doelboringtype_1.0.0> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-doelboringtype.1.0.0";
+    dct:accessRights access_right:PUBLIC;
+    dct:accrualPeriodicity frequency:IRREG;
+    dct:alternative "Dataset codelijst-doelboringtype"@nl;
+    dct:description "Deze dataset bevat een lijst van doelboringtypes, die gebruikt worden binnen data.bodemenondergrond.vlaanderen.be."@nl;
+    dct:identifier <https://data.bodemenondergrond.vlaanderen.be/id/dataset/codelijst-doelboringtype_1.0.0>;
+    dct:isVersionOf omg_dataset:codelijst-doelboringtype;
+    dct:issued "2025-04-06T20:30:57.458Z"^^xsd:dateTime;
+    dct:language <http://publications.europa.eu/resource/authority/language/NLD>;
+    dct:license <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
+    dct:publisher ovo:OVO003323;
+    dct:relation <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_csv>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_jar>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_jsonld>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_nt>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_ttl>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_xlsx>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_xsd>;
+    dct:rightsHolder ovo:OVO003749;
+    dct:spatial country:BEL, <https://sws.geonames.org/3337388/>;
+    dct:subject <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    dct:temporal <https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg>;
+    dct:title "codelijst doelboringtype Versie 1.0.0"@nl;
+    void:rootResource conceptscheme:doelboringtype;
+    a void:Dataset, rdfs:Resource, dcat:Dataset, dcat:Resource;
+    rdfs:label "codelijst doelboringtype Versie 1.0.0"@nl;
+    owl:versionInfo "1.0.0";
+    dcat:accessURL <https://github.com/bodemenondergrond/codelijst-doelboringtype.git>;
+    dcat:contactPoint <https://data.omgeving.vlaanderen.be/id/vcard/helpdesk>;
+    dcat:distribution <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_csv>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_jar>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_jsonld>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_nt>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_ttl>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_xlsx>, <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_xsd>;
+    dcat:landingPage <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
+    dcat:theme <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    foaf:page <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>, <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-doelboringtype_1.0.0.html>.
+<https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_csv> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0_csv";
+    dct:accessRights access_right:PUBLIC;
+    dct:accrualPeriodicity frequency:IRREG;
+    dct:description "codelijst doelboringtype, geserialiseerd als csv bestand."@nl;
+    dct:format file_type:CSV, <https://www.iana.org/assignments/media-types/text/csv>;
+    dct:identifier <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_csv>;
+    dct:issued "2025-04-06T20:30:57.458Z"^^xsd:dateTime;
+    dct:language <http://publications.europa.eu/resource/authority/language/NLD>;
+    dct:license <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
+    dct:publisher ovo:OVO003323;
+    dct:rightsHolder ovo:OVO003749;
+    dct:spatial country:BEL, <https://sws.geonames.org/3337388/>;
+    dct:subject <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    dct:title "codelijst doelboringtype, geserialiseerd als csv-formaat. Versie 1.0.0"@nl;
+    a rdfs:Resource, dcat:Distribution;
+    rdfs:label "codelijst doelboringtype, geserialiseerd als csv-formaat. Versie 1.0.0"@nl;
+    owl:versionInfo "1.0.0";
+    dcat:accessURL <https://github.com/bodemenondergrond/codelijst-doelboringtype.git>;
+    dcat:contactPoint <https://data.omgeving.vlaanderen.be/id/vcard/helpdesk>;
+    dcat:downloadURL <https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.csv>;
+    dcat:landingPage <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/csv>;
+    dcat:theme <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    foaf:page <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>, <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_csv.html>.
+<https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_jar> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0_jar";
+    dct:accessRights access_right:PUBLIC;
+    dct:accrualPeriodicity frequency:IRREG;
+    dct:description "codelijst doelboringtype, geserialiseerd als jar bestand."@nl;
+    dct:format file_type:JAR, <https://www.iana.org/assignments/media-types/application/java-archive>;
+    dct:identifier <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_jar>;
+    dct:issued "2025-04-06T20:30:57.458Z"^^xsd:dateTime;
+    dct:language <http://publications.europa.eu/resource/authority/language/NLD>;
+    dct:license <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
+    dct:publisher ovo:OVO003323;
+    dct:rightsHolder ovo:OVO003749;
+    dct:spatial country:BEL, <https://sws.geonames.org/3337388/>;
+    dct:subject <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    dct:title "codelijst doelboringtype, geserialiseerd als jar-formaat. Versie 1.0.0"@nl;
+    spdx:downloadLocation <https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-doelboringtype/1.0.0/codelijst-doelboringtype-1.0.0.jar>;
+    spdx:name "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtype";
+    spdx:packageName "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-doelboringtype";
+    spdx:versionInfo "1.0.0";
+    a spdx:Package, spdx:SpdxElement, spdx:SpdxItem, rdfs:Resource, dcat:Distribution;
+    rdfs:label "codelijst doelboringtype, geserialiseerd als jar-formaat. Versie 1.0.0"@nl;
+    owl:versionInfo "1.0.0";
+    dcat:accessURL <https://github.com/bodemenondergrond/codelijst-doelboringtype.git>;
+    dcat:contactPoint <https://data.omgeving.vlaanderen.be/id/vcard/helpdesk>;
+    dcat:downloadURL <https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-doelboringtype/1.0.0/codelijst-doelboringtype-1.0.0.jar>;
+    dcat:landingPage <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/java-archive>;
+    dcat:theme <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    foaf:page <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>, <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_jar.html>.
+<https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_jsonld> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0_jsonld";
+    dct:accessRights access_right:PUBLIC;
+    dct:accrualPeriodicity frequency:IRREG;
+    dct:description "codelijst doelboringtype, geserialiseerd als jsonld bestand."@nl;
+    dct:format file_type:JSON_LD, <https://www.iana.org/assignments/media-types/application/ld+json>;
+    dct:identifier <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_jsonld>;
+    dct:issued "2025-04-06T20:30:57.458Z"^^xsd:dateTime;
+    dct:language <http://publications.europa.eu/resource/authority/language/NLD>;
+    dct:license <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
+    dct:publisher ovo:OVO003323;
+    dct:rightsHolder ovo:OVO003749;
+    dct:spatial country:BEL, <https://sws.geonames.org/3337388/>;
+    dct:subject <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    dct:title "codelijst doelboringtype, geserialiseerd als jsonld-formaat. Versie 1.0.0"@nl;
+    a rdfs:Resource, dcat:Distribution;
+    rdfs:label "codelijst doelboringtype, geserialiseerd als jsonld-formaat. Versie 1.0.0"@nl;
+    owl:versionInfo "1.0.0";
+    dcat:accessURL <https://github.com/bodemenondergrond/codelijst-doelboringtype.git>;
+    dcat:contactPoint <https://data.omgeving.vlaanderen.be/id/vcard/helpdesk>;
+    dcat:downloadURL <https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.jsonld>;
+    dcat:landingPage <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/ld+json>;
+    dcat:theme <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    foaf:page <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>, <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_jsonld.html>.
+<https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_nt> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0_nt";
+    dct:accessRights access_right:PUBLIC;
+    dct:accrualPeriodicity frequency:IRREG;
+    dct:description "codelijst doelboringtype, geserialiseerd als nt bestand."@nl;
+    dct:format file_type:RDF_N_TRIPLES, <https://www.iana.org/assignments/media-types/application/n-triples>;
+    dct:identifier <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_nt>;
+    dct:issued "2025-04-06T20:30:57.458Z"^^xsd:dateTime;
+    dct:language <http://publications.europa.eu/resource/authority/language/NLD>;
+    dct:license <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
+    dct:publisher ovo:OVO003323;
+    dct:rightsHolder ovo:OVO003749;
+    dct:spatial country:BEL, <https://sws.geonames.org/3337388/>;
+    dct:subject <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    dct:title "codelijst doelboringtype, geserialiseerd als nt-formaat. Versie 1.0.0"@nl;
+    a rdfs:Resource, dcat:Distribution;
+    rdfs:label "codelijst doelboringtype, geserialiseerd als nt-formaat. Versie 1.0.0"@nl;
+    owl:versionInfo "1.0.0";
+    dcat:accessURL <https://github.com/bodemenondergrond/codelijst-doelboringtype.git>;
+    dcat:contactPoint <https://data.omgeving.vlaanderen.be/id/vcard/helpdesk>;
+    dcat:downloadURL <https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.nt>;
+    dcat:landingPage <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/n-triples>;
+    dcat:theme <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    foaf:page <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>, <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_nt.html>.
+<https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_ttl> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0_ttl";
+    dct:accessRights access_right:PUBLIC;
+    dct:accrualPeriodicity frequency:IRREG;
+    dct:description "codelijst doelboringtype, geserialiseerd als ttl bestand."@nl;
+    dct:format file_type:RDF_TURTLE, <https://www.iana.org/assignments/media-types/text/turtle>;
+    dct:identifier <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_ttl>;
+    dct:issued "2025-04-06T20:30:57.458Z"^^xsd:dateTime;
+    dct:language <http://publications.europa.eu/resource/authority/language/NLD>;
+    dct:license <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
+    dct:publisher ovo:OVO003323;
+    dct:rightsHolder ovo:OVO003749;
+    dct:spatial country:BEL, <https://sws.geonames.org/3337388/>;
+    dct:subject <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    dct:title "codelijst doelboringtype, geserialiseerd als ttl-formaat. Versie 1.0.0"@nl;
+    a rdfs:Resource, dcat:Distribution;
+    rdfs:label "codelijst doelboringtype, geserialiseerd als ttl-formaat. Versie 1.0.0"@nl;
+    owl:versionInfo "1.0.0";
+    dcat:accessURL <https://github.com/bodemenondergrond/codelijst-doelboringtype.git>;
+    dcat:contactPoint <https://data.omgeving.vlaanderen.be/id/vcard/helpdesk>;
+    dcat:downloadURL <https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.ttl>;
+    dcat:landingPage <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle>;
+    dcat:theme <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    foaf:page <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>, <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_ttl.html>.
+<https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_xlsx> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0_xlsx";
+    dct:accessRights access_right:PUBLIC;
+    dct:accrualPeriodicity frequency:IRREG;
+    dct:description "codelijst doelboringtype, geserialiseerd als xlsx bestand."@nl;
+    dct:format file_type:XLSX, <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet>;
+    dct:identifier <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_xlsx>;
+    dct:issued "2025-04-06T20:30:57.458Z"^^xsd:dateTime;
+    dct:language <http://publications.europa.eu/resource/authority/language/NLD>;
+    dct:license <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
+    dct:publisher ovo:OVO003323;
+    dct:rightsHolder ovo:OVO003749;
+    dct:spatial country:BEL, <https://sws.geonames.org/3337388/>;
+    dct:subject <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    dct:title "codelijst doelboringtype, geserialiseerd als xlsx-formaat. Versie 1.0.0"@nl;
+    a rdfs:Resource, dcat:Distribution;
+    rdfs:label "codelijst doelboringtype, geserialiseerd als xlsx-formaat. Versie 1.0.0"@nl;
+    owl:versionInfo "1.0.0";
+    dcat:accessURL <https://github.com/bodemenondergrond/codelijst-doelboringtype.git>;
+    dcat:contactPoint <https://data.omgeving.vlaanderen.be/id/vcard/helpdesk>;
+    dcat:downloadURL <https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.xlsx>;
+    dcat:landingPage <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet>;
+    dcat:theme <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    foaf:page <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>, <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_xlsx.html>.
+<https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_xsd> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0_xsd";
+    dct:accessRights access_right:PUBLIC;
+    dct:accrualPeriodicity frequency:IRREG;
+    dct:description "codelijst doelboringtype, geserialiseerd als xsd bestand."@nl;
+    dct:format file_type:RDF_XML, <https://www.iana.org/assignments/media-types/application/rdf+xml>;
+    dct:identifier <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_xsd>;
+    dct:issued "2025-04-06T20:30:57.458Z"^^xsd:dateTime;
+    dct:language <http://publications.europa.eu/resource/authority/language/NLD>;
+    dct:license <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
+    dct:publisher ovo:OVO003323;
+    dct:rightsHolder ovo:OVO003749;
+    dct:spatial country:BEL, <https://sws.geonames.org/3337388/>;
+    dct:subject <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    dct:title "codelijst doelboringtype, geserialiseerd als xsd-formaat. Versie 1.0.0"@nl;
+    a rdfs:Resource, dcat:Distribution;
+    rdfs:label "codelijst doelboringtype, geserialiseerd als xsd-formaat. Versie 1.0.0"@nl;
+    owl:versionInfo "1.0.0";
+    dcat:accessURL <https://github.com/bodemenondergrond/codelijst-doelboringtype.git>;
+    dcat:contactPoint <https://data.omgeving.vlaanderen.be/id/vcard/helpdesk>;
+    dcat:downloadURL <https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.xsd>;
+    dcat:landingPage <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/rdf+xml>;
+    dcat:theme <http://eurovoc.europa.eu/2407>, datatheme_eu:ENVI, datatheme_be:ENVI, <http://www.eionet.europa.eu/gemet/concept/10087>;
+    foaf:page <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>, <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-doelboringtype_1.0.0_xsd.html>.
+omg_graph:codelijst-doelboringtype a ssd:Graph.
+omg_graphcollection:sparqlservice dc:identifier "be.vlaanderen.bodemenondergrond.data.id.graphcollection.sparqlservice";
+    dct:identifier omg_graphcollection:sparqlservice;
+    a ssd:Dataset, ssd:GraphCollection;
+    rdfs:label "De graphen die gebruikt kunnen worden in de constructie van een dataset via SPARQL Protocol."@nl;
+    ssd:namedGraph omg_named_graph:codelijst-doelboringtype.
+omg_named_graph:codelijst-doelboringtype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.namedgraph.codelijst-doelboringtype";
+    dct:identifier omg_named_graph:codelijst-doelboringtype;
+    dct:source <https://data.bodemenondergrond.vlaanderen.be/id/distribution/codelijst-doelboringtype_1.0.0_jar>;
+    dct:title "Graph codelijst doelboringtype"@nl;
+    void:rootResource conceptscheme:doelboringtype;
+    a void:Dataset, ssd:NamedGraph;
+    rdfs:label "Graph codelijst doelboringtype"@nl;
+    ssd:graph omg_graph:codelijst-doelboringtype;
+    ssd:name omg_graph:codelijst-doelboringtype.
+omg_service:sparqlservice dc:identifier "be.vlaanderen.bodemenondergrond.data.id.service.sparqlservice";
+    dct:description "Een beschrijving, met de verschillende kenmerken, van de sparql service."@nl;
+    dct:identifier omg_service:sparqlservice;
+    a ssd:Service;
+    rdfs:label "Sparql service conform SPARQL 1.1 Protocol."@nl;
+    ssd:availableGraphs omg_graphcollection:sparqlservice;
+    ssd:defaultDataset omg_graphcollection:sparqlservice;
+    ssd:endpoint <https://data.bodemenondergrond.vlaanderen.be/sparql>;
+    ssd:feature ssd:DereferencesURIs, ssd:SPARQL10Query, ssd:UnionDefaultGraph;
+    ssd:resultFormat ts:JSON-LD, ts:N-Quads, ts:N-Triples, ts:RDF_XML, ts:SPARQL_Results_CSV, ts:SPARQL_Results_JSON, ts:SPARQL_Results_XML, ts:Turtle;
+    ssd:supportedLanguage ssd:SPARQL10Query.
+<https://data.bodemenondergrond.vlaanderen.be/sparql> a rdfs:Resource.
+<https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg> a dct:PeriodOfTime.
+<https://data.omgeving.vlaanderen.be/id/vcard/helpdesk> a vcard:Kind.
+<https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.csv> a rdfs:Resource.
+<https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.jsonld> a rdfs:Resource.
+<https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.nt> a rdfs:Resource.
+<https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.ttl> a rdfs:Resource.
+<https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.xlsx> a rdfs:Resource.
+<https://datasets.omgeving.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-doelboringtype.1.0.0.doelboringtype.xsd> a rdfs:Resource.
+<https://github.com/bodemenondergrond/codelijst-doelboringtype.git> a rdfs:Resource.
+<https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-doelboringtype/1.0.0/codelijst-doelboringtype-1.0.0.jar> a rdfs:Resource.
+<https://sws.geonames.org/3337388/> a dct:Location.
+<https://www.iana.org/assignments/media-types/application/java-archive> a dct:MediaType, dct:MediaTypeOrExtent.
+<https://www.iana.org/assignments/media-types/application/ld+json> a dct:MediaType, dct:MediaTypeOrExtent.
+<https://www.iana.org/assignments/media-types/application/n-triples> a dct:MediaType, dct:MediaTypeOrExtent.
+<https://www.iana.org/assignments/media-types/application/rdf+xml> a dct:MediaType, dct:MediaTypeOrExtent.
+<https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> a dct:MediaType, dct:MediaTypeOrExtent.
+<https://www.iana.org/assignments/media-types/text/csv> a dct:MediaType, dct:MediaTypeOrExtent.
+<https://www.iana.org/assignments/media-types/text/turtle> a dct:MediaType, dct:MediaTypeOrExtent.

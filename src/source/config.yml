@@ -12,6 +12,7 @@ skos:
   jsonld: .jsonld
   xsd: .xsd
   csv: .csv
+  rdf_xml: .rdf
   xlsx: .xlsx
   nt: .nt
 
@@ -20,8 +21,9 @@ source:
   codelijst_csv: codelijst-source.csv
   context: context.json
 dcat:
-  path_catalog: be/vlaanderen/bodemenondergrond/data/id/catalog/
-  path_dataset: be/vlaanderen/bodemenondergrond/data/id/dataset/
+  temp_path:
+  path_catalog: /be/vlaanderen/bodemenondergrond/data/id/catalog/
+  path_dataset: /be/vlaanderen/bodemenondergrond/data/id/dataset/
   name: codelijst-doelboringtype
   dataset_jsonld: dataset.jsonld
   dataset_turtle: dataset.ttl
