@@ -69,6 +69,7 @@
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/mitigatie" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/monitoringvervuildesites" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/noodwatervoorziening" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/opvullenboorgatput" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/reservewatervoorziening" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/sanering" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/schietgat" />

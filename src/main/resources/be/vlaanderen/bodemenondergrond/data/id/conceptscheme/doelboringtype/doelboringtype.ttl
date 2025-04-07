@@ -716,6 +716,14 @@ concept:noodwatervoorziening dc:identifier "be.vlaanderen.bodemenondergrond.data
     skos:prefLabel "Noodwatervoorziening"@nl;
     skos:semanticRelation insp_bhp:emergencyWaterSupply, concept:grondwaterwinning;
     skos:topConceptOf conceptscheme:doelboringtype.
+concept:opvullenboorgatput dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.opvullenboorgatput";
+    a skos:Concept;
+    skos:definition "Boring uitgevoerd voor het opvullen van een boorgat of een grondwaterwinning."@nl;
+    skos:inScheme conceptscheme:doelboringtype;
+    skos:notation "opvullenboorgatput";
+    skos:note "Boring uitgevoerd voor het opvullen van een boorgat of een grondwaterwinning."@nl;
+    skos:prefLabel "Opvullen van een boring of een grondwaterwinning"@nl;
+    skos:topConceptOf conceptscheme:doelboringtype.
 concept:reservewatervoorziening dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.reservewatervoorziening";
     a skos:Concept;
     skos:broader concept:grondwaterwinning;
@@ -822,7 +830,7 @@ concept:watercultuur dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conc
 conceptscheme:doelboringtype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.doelboringtype";
     a skos:ConceptScheme;
     skos:definition "Beschrijving van het doel waarvoor de boring is uitgevoerd."@nl;
-    skos:hasTopConcept concept:archeologischonderzoek, concept:berging, concept:bodemkundigonderzoek, concept:drainagebemaling, concept:drinkwatervoorziening, concept:exploitatiediepegeothermie, concept:exploitatieenergiebronnen, concept:exploitatiekoolwaterstoffen, concept:exploitatiemineralebronnen, concept:exploratiediepegeothermie, concept:exploratieenergiebronnen, concept:exploratiekoolwaterstoffen, concept:exploratiemineralebronnen, concept:exploratieondergrondseopslag, concept:geochemischonderzoek, concept:geofysischonderzoek, concept:geologischonderzoek, concept:geotechnischonderzoek, concept:geothermie, concept:grondstoffen, concept:grondverzet, concept:grondwaterkwaliteitmonitoring, concept:grondwaterkwantiteitmonitoring, concept:grondwatermonitoring, concept:grondwaterwinning, concept:hydrogeologischonderzoek, concept:industrielewatervoorziening, concept:infiltratie, concept:irrigatie, concept:kathodischebescherming, concept:mineraleafzettingen, concept:mitigatie, concept:monitoringvervuildesites, concept:noodwatervoorziening, concept:reservewatervoorziening, concept:sanering, concept:schietgat, concept:stromendschietgat, concept:thermischereiniging, concept:waardebepalingkoolwaterstoffen, concept:watercultuur;
+    skos:hasTopConcept concept:archeologischonderzoek, concept:berging, concept:bodemkundigonderzoek, concept:drainagebemaling, concept:drinkwatervoorziening, concept:exploitatiediepegeothermie, concept:exploitatieenergiebronnen, concept:exploitatiekoolwaterstoffen, concept:exploitatiemineralebronnen, concept:exploratiediepegeothermie, concept:exploratieenergiebronnen, concept:exploratiekoolwaterstoffen, concept:exploratiemineralebronnen, concept:exploratieondergrondseopslag, concept:geochemischonderzoek, concept:geofysischonderzoek, concept:geologischonderzoek, concept:geotechnischonderzoek, concept:geothermie, concept:grondstoffen, concept:grondverzet, concept:grondwaterkwaliteitmonitoring, concept:grondwaterkwantiteitmonitoring, concept:grondwatermonitoring, concept:grondwaterwinning, concept:hydrogeologischonderzoek, concept:industrielewatervoorziening, concept:infiltratie, concept:irrigatie, concept:kathodischebescherming, concept:mineraleafzettingen, concept:mitigatie, concept:monitoringvervuildesites, concept:noodwatervoorziening, concept:opvullenboorgatput, concept:reservewatervoorziening, concept:sanering, concept:schietgat, concept:stromendschietgat, concept:thermischereiniging, concept:waardebepalingkoolwaterstoffen, concept:watercultuur;
     skos:notation "doelboringtype";
     skos:note "Beschrijving van het doel waarvoor de boring is uitgevoerd."@nl;
     skos:prefLabel "Codelijst doelboringtype."@nl.

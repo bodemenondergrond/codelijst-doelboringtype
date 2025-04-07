@@ -1612,6 +1612,17 @@
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
+            "id": "concept:opvullenboorgatput",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.opvullenboorgatput",
+            "definition": "Boring uitgevoerd voor het opvullen van een boorgat of een grondwaterwinning.",
+            "inScheme": "conceptscheme:doelboringtype",
+            "notation": "opvullenboorgatput",
+            "note": "Boring uitgevoerd voor het opvullen van een boorgat of een grondwaterwinning.",
+            "prefLabel": "Opvullen van een boring of een grondwaterwinning",
+            "topConceptOf": "conceptscheme:doelboringtype"
+        },
+        {
             "id": "concept:reservewatervoorziening",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.reservewatervoorziening",
@@ -1828,7 +1839,8 @@
                 "concept:grondwaterkwaliteitmonitoring",
                 "concept:archeologischonderzoek",
                 "concept:grondverzet",
-                "concept:kathodischebescherming"
+                "concept:kathodischebescherming",
+                "concept:opvullenboorgatput"
             ],
             "notation": "doelboringtype",
             "note": "Beschrijving van het doel waarvoor de boring is uitgevoerd.",
