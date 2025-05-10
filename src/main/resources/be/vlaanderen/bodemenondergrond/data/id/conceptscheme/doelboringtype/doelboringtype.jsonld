@@ -391,482 +391,9 @@
         "wise": "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
         "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "insp_bhp": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/",
         "@base": "https://data.bodemenondergrond.vlaanderen.be/id/concept/doelboringtype/"
     },
     "graph": [
-        {
-            "id": "insp_bhp:aquaculture",
-            "type": "skos:Concept",
-            "broadMatch": "concept:watercultuur",
-            "broader": "concept:watercultuur",
-            "broaderTransitive": [
-                "concept:watercultuur",
-                "concept:grondwaterwinning"
-            ],
-            "mappingRelation": "concept:watercultuur",
-            "semanticRelation": [
-                "concept:watercultuur",
-                "concept:grondwaterwinning"
-            ]
-        },
-        {
-            "id": "insp_bhp:contingencyWaterSupply",
-            "type": "skos:Concept",
-            "broadMatch": "concept:reservewatervoorziening",
-            "broader": "concept:reservewatervoorziening",
-            "broaderTransitive": [
-                "concept:grondwaterwinning",
-                "concept:reservewatervoorziening"
-            ],
-            "mappingRelation": "concept:reservewatervoorziening",
-            "semanticRelation": [
-                "concept:grondwaterwinning",
-                "concept:reservewatervoorziening"
-            ]
-        },
-        {
-            "id": "insp_bhp:dewatering",
-            "type": "skos:Concept",
-            "broadMatch": "concept:drainagebemaling",
-            "broader": "concept:drainagebemaling",
-            "broaderTransitive": "concept:drainagebemaling",
-            "mappingRelation": "concept:drainagebemaling",
-            "semanticRelation": "concept:drainagebemaling"
-        },
-        {
-            "id": "insp_bhp:drinkingWaterSupply",
-            "type": "skos:Concept",
-            "broadMatch": "concept:drinkwatervoorziening",
-            "broader": "concept:drinkwatervoorziening",
-            "broaderTransitive": [
-                "concept:grondwaterwinning",
-                "concept:drinkwatervoorziening"
-            ],
-            "mappingRelation": "concept:drinkwatervoorziening",
-            "semanticRelation": [
-                "concept:grondwaterwinning",
-                "concept:drinkwatervoorziening"
-            ]
-        },
-        {
-            "id": "insp_bhp:emergencyWaterSupply",
-            "type": "skos:Concept",
-            "broadMatch": "concept:noodwatervoorziening",
-            "broader": "concept:noodwatervoorziening",
-            "broaderTransitive": [
-                "concept:grondwaterwinning",
-                "concept:noodwatervoorziening"
-            ],
-            "mappingRelation": "concept:noodwatervoorziening",
-            "semanticRelation": [
-                "concept:grondwaterwinning",
-                "concept:noodwatervoorziening"
-            ]
-        },
-        {
-            "id": "insp_bhp:environmentalMonitoring",
-            "type": "skos:Concept",
-            "broadMatch": "concept:grondwatermonitoring",
-            "broader": "concept:grondwatermonitoring",
-            "broaderTransitive": "concept:grondwatermonitoring",
-            "mappingRelation": "concept:grondwatermonitoring",
-            "semanticRelation": "concept:grondwatermonitoring"
-        },
-        {
-            "id": "insp_bhp:explorationExploitationEnergyResources",
-            "type": "skos:Concept",
-            "broadMatch": [
-                "concept:exploitatieenergiebronnen",
-                "concept:exploratieenergiebronnen"
-            ],
-            "broader": [
-                "concept:exploitatieenergiebronnen",
-                "concept:exploratieenergiebronnen"
-            ],
-            "broaderTransitive": [
-                "concept:drainagebemaling",
-                "concept:exploitatieenergiebronnen",
-                "concept:exploratieenergiebronnen"
-            ],
-            "mappingRelation": [
-                "concept:exploitatieenergiebronnen",
-                "concept:exploratieenergiebronnen"
-            ],
-            "semanticRelation": [
-                "concept:drainagebemaling",
-                "concept:exploitatieenergiebronnen",
-                "concept:exploratieenergiebronnen"
-            ]
-        },
-        {
-            "id": "insp_bhp:explorationExploitationNonmetallicMineralDeposits",
-            "type": "skos:Concept",
-            "broadMatch": "concept:mineraleafzettingen",
-            "broader": "concept:mineraleafzettingen",
-            "broaderTransitive": [
-                "concept:mineraleafzettingen",
-                "concept:grondstoffen"
-            ],
-            "mappingRelation": "concept:mineraleafzettingen",
-            "semanticRelation": [
-                "concept:mineraleafzettingen",
-                "concept:grondstoffen"
-            ]
-        },
-        {
-            "id": "insp_bhp:explorationExploitationRawMaterial",
-            "type": "skos:Concept",
-            "broadMatch": "concept:grondstoffen",
-            "broader": "concept:grondstoffen",
-            "broaderTransitive": "concept:grondstoffen",
-            "mappingRelation": "concept:grondstoffen",
-            "semanticRelation": "concept:grondstoffen"
-        },
-        {
-            "id": "insp_bhp:explorationNaturalUndergroundStorage",
-            "type": "skos:Concept",
-            "broadMatch": [
-                "concept:berging",
-                "concept:exploratieondergrondseopslag"
-            ],
-            "broader": [
-                "concept:berging",
-                "concept:exploratieondergrondseopslag"
-            ],
-            "broaderTransitive": [
-                "concept:berging",
-                "concept:exploratieondergrondseopslag"
-            ],
-            "mappingRelation": [
-                "concept:berging",
-                "concept:exploratieondergrondseopslag"
-            ],
-            "semanticRelation": [
-                "concept:berging",
-                "concept:exploratieondergrondseopslag"
-            ]
-        },
-        {
-            "id": "insp_bhp:flowingShot",
-            "type": "skos:Concept",
-            "broadMatch": "concept:stromendschietgat",
-            "broader": "concept:stromendschietgat",
-            "broaderTransitive": [
-                "concept:stromendschietgat",
-                "concept:geofysischonderzoek",
-                "concept:schietgat"
-            ],
-            "mappingRelation": "concept:stromendschietgat",
-            "semanticRelation": [
-                "concept:stromendschietgat",
-                "concept:geofysischonderzoek",
-                "concept:schietgat"
-            ]
-        },
-        {
-            "id": "insp_bhp:geochemicalSurvey",
-            "type": "skos:Concept",
-            "broadMatch": "concept:geochemischonderzoek",
-            "broader": "concept:geochemischonderzoek",
-            "broaderTransitive": "concept:geochemischonderzoek",
-            "mappingRelation": "concept:geochemischonderzoek",
-            "semanticRelation": "concept:geochemischonderzoek"
-        },
-        {
-            "id": "insp_bhp:geologicalSurvey",
-            "type": "skos:Concept",
-            "broadMatch": "concept:geologischonderzoek",
-            "broader": "concept:geologischonderzoek",
-            "broaderTransitive": "concept:geologischonderzoek",
-            "mappingRelation": "concept:geologischonderzoek",
-            "semanticRelation": "concept:geologischonderzoek"
-        },
-        {
-            "id": "insp_bhp:geophysicalSurvey",
-            "type": "skos:Concept",
-            "broadMatch": "concept:geofysischonderzoek",
-            "broader": "concept:geofysischonderzoek",
-            "broaderTransitive": "concept:geofysischonderzoek",
-            "mappingRelation": "concept:geofysischonderzoek",
-            "semanticRelation": "concept:geofysischonderzoek"
-        },
-        {
-            "id": "insp_bhp:geotechnicalSurvey",
-            "type": "skos:Concept",
-            "broadMatch": "concept:geotechnischonderzoek",
-            "broader": "concept:geotechnischonderzoek",
-            "broaderTransitive": "concept:geotechnischonderzoek",
-            "mappingRelation": "concept:geotechnischonderzoek",
-            "semanticRelation": "concept:geotechnischonderzoek"
-        },
-        {
-            "id": "insp_bhp:geothermalEnergy",
-            "type": "skos:Concept",
-            "broadMatch": [
-                "concept:exploitatiediepegeothermie",
-                "concept:exploratiediepegeothermie",
-                "concept:geothermie"
-            ],
-            "broader": [
-                "concept:exploitatiediepegeothermie",
-                "concept:exploratiediepegeothermie",
-                "concept:geothermie"
-            ],
-            "broaderTransitive": [
-                "concept:grondstoffen",
-                "concept:exploitatiediepegeothermie",
-                "concept:exploratiediepegeothermie",
-                "concept:geothermie"
-            ],
-            "mappingRelation": [
-                "concept:exploitatiediepegeothermie",
-                "concept:exploratiediepegeothermie",
-                "concept:geothermie"
-            ],
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "concept:exploitatiediepegeothermie",
-                "concept:exploratiediepegeothermie",
-                "concept:geothermie"
-            ]
-        },
-        {
-            "id": "insp_bhp:groundwaterLevelMonitoring",
-            "type": "skos:Concept",
-            "broadMatch": "concept:grondwaterkwantiteitmonitoring",
-            "broader": "concept:grondwaterkwantiteitmonitoring",
-            "broaderTransitive": [
-                "concept:grondwatermonitoring",
-                "concept:grondwaterkwantiteitmonitoring"
-            ],
-            "mappingRelation": "concept:grondwaterkwantiteitmonitoring",
-            "semanticRelation": [
-                "concept:grondwatermonitoring",
-                "concept:grondwaterkwantiteitmonitoring"
-            ]
-        },
-        {
-            "id": "insp_bhp:hydrocarbonAppraisal",
-            "type": "skos:Concept",
-            "broadMatch": "concept:waardebepalingkoolwaterstoffen",
-            "broader": "concept:waardebepalingkoolwaterstoffen",
-            "broaderTransitive": [
-                "concept:grondstoffen",
-                "concept:waardebepalingkoolwaterstoffen"
-            ],
-            "mappingRelation": "concept:waardebepalingkoolwaterstoffen",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "concept:waardebepalingkoolwaterstoffen"
-            ]
-        },
-        {
-            "id": "insp_bhp:hydrocarbonExploration",
-            "type": "skos:Concept",
-            "broadMatch": "concept:exploratiekoolwaterstoffen",
-            "broader": "concept:exploratiekoolwaterstoffen",
-            "broaderTransitive": [
-                "concept:grondstoffen",
-                "concept:exploratiekoolwaterstoffen"
-            ],
-            "mappingRelation": "concept:exploratiekoolwaterstoffen",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "concept:exploratiekoolwaterstoffen"
-            ]
-        },
-        {
-            "id": "insp_bhp:hydrocarbonProduction",
-            "type": "skos:Concept",
-            "broadMatch": "concept:exploitatiekoolwaterstoffen",
-            "broader": "concept:exploitatiekoolwaterstoffen",
-            "broaderTransitive": [
-                "concept:grondstoffen",
-                "concept:exploitatiekoolwaterstoffen"
-            ],
-            "mappingRelation": "concept:exploitatiekoolwaterstoffen",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "concept:exploitatiekoolwaterstoffen"
-            ]
-        },
-        {
-            "id": "insp_bhp:hydrogeologicalSurvey",
-            "type": "skos:Concept",
-            "broadMatch": "concept:hydrogeologischonderzoek",
-            "broader": "concept:hydrogeologischonderzoek",
-            "broaderTransitive": "concept:hydrogeologischonderzoek",
-            "mappingRelation": "concept:hydrogeologischonderzoek",
-            "semanticRelation": "concept:hydrogeologischonderzoek"
-        },
-        {
-            "id": "insp_bhp:industrialWaterSupply",
-            "type": "skos:Concept",
-            "broadMatch": "concept:industrielewatervoorziening",
-            "broader": "concept:industrielewatervoorziening",
-            "broaderTransitive": [
-                "concept:grondwaterwinning",
-                "concept:industrielewatervoorziening"
-            ],
-            "mappingRelation": "concept:industrielewatervoorziening",
-            "semanticRelation": [
-                "concept:grondwaterwinning",
-                "concept:industrielewatervoorziening"
-            ]
-        },
-        {
-            "id": "insp_bhp:irrigation",
-            "type": "skos:Concept",
-            "broadMatch": "concept:irrigatie",
-            "broader": "concept:irrigatie",
-            "broaderTransitive": [
-                "concept:grondwaterwinning",
-                "concept:irrigatie"
-            ],
-            "mappingRelation": "concept:irrigatie",
-            "semanticRelation": [
-                "concept:grondwaterwinning",
-                "concept:irrigatie"
-            ]
-        },
-        {
-            "id": "insp_bhp:mineralExplorationExtraction",
-            "type": "skos:Concept",
-            "broadMatch": [
-                "concept:exploitatiemineralebronnen",
-                "concept:exploratiemineralebronnen"
-            ],
-            "broader": [
-                "concept:exploitatiemineralebronnen",
-                "concept:exploratiemineralebronnen"
-            ],
-            "broaderTransitive": [
-                "concept:grondstoffen",
-                "concept:exploitatiemineralebronnen",
-                "concept:exploratiemineralebronnen"
-            ],
-            "mappingRelation": [
-                "concept:exploitatiemineralebronnen",
-                "concept:exploratiemineralebronnen"
-            ],
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "concept:exploitatiemineralebronnen",
-                "concept:exploratiemineralebronnen"
-            ]
-        },
-        {
-            "id": "insp_bhp:mitigation",
-            "type": "skos:Concept",
-            "broadMatch": "concept:mitigatie",
-            "broader": "concept:mitigatie",
-            "broaderTransitive": [
-                "concept:mitigatie",
-                "concept:sanering"
-            ],
-            "mappingRelation": "concept:mitigatie",
-            "semanticRelation": [
-                "concept:mitigatie",
-                "concept:sanering"
-            ]
-        },
-        {
-            "id": "insp_bhp:pedologicalSurvey",
-            "type": "skos:Concept",
-            "broadMatch": "concept:bodemkundigonderzoek",
-            "broader": "concept:bodemkundigonderzoek",
-            "broaderTransitive": "concept:bodemkundigonderzoek",
-            "mappingRelation": "concept:bodemkundigonderzoek",
-            "semanticRelation": "concept:bodemkundigonderzoek"
-        },
-        {
-            "id": "insp_bhp:pollutionMonitoring",
-            "type": "skos:Concept",
-            "broadMatch": "concept:monitoringvervuildesites",
-            "broader": "concept:monitoringvervuildesites",
-            "broaderTransitive": [
-                "concept:grondwatermonitoring",
-                "concept:monitoringvervuildesites"
-            ],
-            "mappingRelation": "concept:monitoringvervuildesites",
-            "semanticRelation": [
-                "concept:grondwatermonitoring",
-                "concept:monitoringvervuildesites"
-            ]
-        },
-        {
-            "id": "insp_bhp:recharge",
-            "type": "skos:Concept",
-            "broadMatch": "concept:infiltratie",
-            "broader": "concept:infiltratie",
-            "broaderTransitive": "concept:infiltratie",
-            "mappingRelation": "concept:infiltratie",
-            "semanticRelation": "concept:infiltratie"
-        },
-        {
-            "id": "insp_bhp:remediation",
-            "type": "skos:Concept",
-            "broadMatch": "concept:sanering",
-            "broader": "concept:sanering",
-            "broaderTransitive": "concept:sanering",
-            "mappingRelation": "concept:sanering",
-            "semanticRelation": "concept:sanering"
-        },
-        {
-            "id": "insp_bhp:shotHole",
-            "type": "skos:Concept",
-            "broadMatch": "concept:schietgat",
-            "broader": "concept:schietgat",
-            "broaderTransitive": [
-                "concept:geofysischonderzoek",
-                "concept:schietgat"
-            ],
-            "mappingRelation": "concept:schietgat",
-            "semanticRelation": [
-                "concept:geofysischonderzoek",
-                "concept:schietgat"
-            ]
-        },
-        {
-            "id": "insp_bhp:thermalCleaning",
-            "type": "skos:Concept",
-            "broadMatch": "concept:thermischereiniging",
-            "broader": "concept:thermischereiniging",
-            "broaderTransitive": [
-                "concept:sanering",
-                "concept:thermischereiniging"
-            ],
-            "mappingRelation": "concept:thermischereiniging",
-            "semanticRelation": [
-                "concept:sanering",
-                "concept:thermischereiniging"
-            ]
-        },
-        {
-            "id": "insp_bhp:waterQualityMonitoring",
-            "type": "skos:Concept",
-            "broadMatch": "concept:grondwaterkwaliteitmonitoring",
-            "broader": "concept:grondwaterkwaliteitmonitoring",
-            "broaderTransitive": [
-                "concept:grondwatermonitoring",
-                "concept:grondwaterkwaliteitmonitoring"
-            ],
-            "mappingRelation": "concept:grondwaterkwaliteitmonitoring",
-            "semanticRelation": [
-                "concept:grondwatermonitoring",
-                "concept:grondwaterkwaliteitmonitoring"
-            ]
-        },
-        {
-            "id": "insp_bhp:waterSupply",
-            "type": "skos:Concept",
-            "broadMatch": "concept:grondwaterwinning",
-            "broader": "concept:grondwaterwinning",
-            "broaderTransitive": "concept:grondwaterwinning",
-            "mappingRelation": "concept:grondwaterwinning",
-            "semanticRelation": "concept:grondwaterwinning"
-        },
         {
             "id": "concept:archeologischonderzoek",
             "type": "skos:Concept",
@@ -882,222 +409,156 @@
             "id": "concept:berging",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.berging",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/explorationNaturalUndergroundStorage",
             "definition": "Boring uitgevoerd voor onderzoek naar het vermogen van de ondergrond om diverse materialen op te slaan of voor de berging of veilige opslag van o.a. afval, gas, koolstofdioxide.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:explorationNaturalUndergroundStorage",
-            "narrowMatch": "insp_bhp:explorationNaturalUndergroundStorage",
-            "narrower": "insp_bhp:explorationNaturalUndergroundStorage",
-            "narrowerTransitive": "insp_bhp:explorationNaturalUndergroundStorage",
             "notation": "berging",
             "note": "Boring uitgevoerd voor onderzoek naar het vermogen van de ondergrond om diverse materialen op te slaan of voor de berging of veilige opslag van o.a. afval, gas, koolstofdioxide.",
             "prefLabel": "Berging",
-            "semanticRelation": "insp_bhp:explorationNaturalUndergroundStorage",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:bodemkundigonderzoek",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.bodemkundigonderzoek",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/pedologicalSurvey",
             "definition": "Boring uitgevoerd voor het karakteriseren van bodem of grond.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:pedologicalSurvey",
-            "narrowMatch": "insp_bhp:pedologicalSurvey",
-            "narrower": "insp_bhp:pedologicalSurvey",
-            "narrowerTransitive": "insp_bhp:pedologicalSurvey",
             "notation": "bodemkundigonderzoek",
             "note": "Boring uitgevoerd voor het karakteriseren van bodem of grond.",
             "prefLabel": "Bodemkundig onderzoek",
-            "semanticRelation": "insp_bhp:pedologicalSurvey",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:drainagebemaling",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.drainagebemaling",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/dewatering",
             "definition": "Boring uitgevoerd voor het permanent of tijdelijk draineren of verwijderen van water.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:dewatering",
-            "narrowMatch": "insp_bhp:dewatering",
-            "narrower": [
-                "insp_bhp:dewatering",
-                "concept:exploitatieenergiebronnen"
-            ],
-            "narrowerTransitive": [
-                "insp_bhp:dewatering",
-                "insp_bhp:explorationExploitationEnergyResources",
-                "concept:exploitatieenergiebronnen"
-            ],
+            "narrower": "concept:exploitatieenergiebronnen",
+            "narrowerTransitive": "concept:exploitatieenergiebronnen",
             "notation": "drainagebemaling",
             "note": "Boring uitgevoerd voor het permanent of tijdelijk draineren of verwijderen van water.",
             "prefLabel": "Drainage en bemaling",
-            "semanticRelation": [
-                "insp_bhp:dewatering",
-                "insp_bhp:explorationExploitationEnergyResources",
-                "concept:exploitatieenergiebronnen"
-            ],
+            "semanticRelation": "concept:exploitatieenergiebronnen",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:drinkwatervoorziening",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.drinkwatervoorziening",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/drinkingWaterSupply",
             "broader": "concept:grondwaterwinning",
             "broaderTransitive": "concept:grondwaterwinning",
             "definition": "Boring uitgevoerd voor winning van grondwater ten behoeve van drinkwatervoorziening.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:drinkingWaterSupply",
-            "narrowMatch": "insp_bhp:drinkingWaterSupply",
-            "narrower": "insp_bhp:drinkingWaterSupply",
-            "narrowerTransitive": "insp_bhp:drinkingWaterSupply",
             "notation": "drinkwatervoorziening",
             "note": "Boring uitgevoerd voor winning van grondwater ten behoeve van drinkwatervoorziening.",
             "prefLabel": "Drinkwatervoorziening",
-            "semanticRelation": [
-                "concept:grondwaterwinning",
-                "insp_bhp:drinkingWaterSupply"
-            ],
+            "semanticRelation": "concept:grondwaterwinning",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:exploitatiediepegeothermie",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.exploitatiediepegeothermie",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geothermalEnergy",
             "broader": "concept:grondstoffen",
             "broaderTransitive": "concept:grondstoffen",
             "definition": "Boring uitgevoerd voor de exploitatie of winning van warmte voor gebruik in diepe geothermie.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:geothermalEnergy",
-            "narrowMatch": "insp_bhp:geothermalEnergy",
-            "narrower": "insp_bhp:geothermalEnergy",
-            "narrowerTransitive": "insp_bhp:geothermalEnergy",
             "notation": "exploitatiediepegeothermie",
             "note": "Boring uitgevoerd voor de exploitatie of winning van warmte voor gebruik in diepe geothermie.",
             "prefLabel": "Exploitatie diepe geothermie",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "insp_bhp:geothermalEnergy"
-            ],
+            "semanticRelation": "concept:grondstoffen",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:exploitatieenergiebronnen",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.exploitatieenergiebronnen",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/explorationExploitationEnergyResources",
             "broader": "concept:drainagebemaling",
             "broaderTransitive": "concept:drainagebemaling",
             "definition": "Boring uitgevoerd voor de exploitatie of winning van energie bronnen.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:explorationExploitationEnergyResources",
-            "narrowMatch": "insp_bhp:explorationExploitationEnergyResources",
-            "narrower": "insp_bhp:explorationExploitationEnergyResources",
-            "narrowerTransitive": "insp_bhp:explorationExploitationEnergyResources",
             "notation": "exploitatieenergiebronnen",
             "note": "Boring uitgevoerd voor de exploitatie of winning van energie bronnen.",
             "prefLabel": "Exploitatie energie bronnen",
-            "semanticRelation": [
-                "concept:drainagebemaling",
-                "insp_bhp:explorationExploitationEnergyResources"
-            ],
+            "semanticRelation": "concept:drainagebemaling",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:exploitatiekoolwaterstoffen",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.exploitatiekoolwaterstoffen",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/hydrocarbonProduction",
             "broader": "concept:grondstoffen",
             "broaderTransitive": "concept:grondstoffen",
             "definition": "Boring uitgevoerd voor de productie van aardolie en/of gas.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:hydrocarbonProduction",
-            "narrowMatch": "insp_bhp:hydrocarbonProduction",
-            "narrower": "insp_bhp:hydrocarbonProduction",
-            "narrowerTransitive": "insp_bhp:hydrocarbonProduction",
             "notation": "exploitatiekoolwaterstoffen",
             "note": "Boring uitgevoerd voor de productie van aardolie en/of gas.",
             "prefLabel": "Exploitatie koolwaterstoffen",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "insp_bhp:hydrocarbonProduction"
-            ],
+            "semanticRelation": "concept:grondstoffen",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:exploitatiemineralebronnen",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.exploitatiemineralebronnen",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/mineralExplorationExtraction",
             "broader": "concept:grondstoffen",
             "broaderTransitive": "concept:grondstoffen",
             "definition": "Boring uitgevoerd voor de exploitatie of winning van minerale bronnen.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:mineralExplorationExtraction",
-            "narrowMatch": "insp_bhp:mineralExplorationExtraction",
-            "narrower": "insp_bhp:mineralExplorationExtraction",
-            "narrowerTransitive": "insp_bhp:mineralExplorationExtraction",
             "notation": "exploitatiemineralebronnen",
             "note": "Boring uitgevoerd voor de exploitatie of winning van minerale bronnen.",
             "prefLabel": "Exploitatie minerale bronnen",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "insp_bhp:mineralExplorationExtraction"
-            ],
+            "semanticRelation": "concept:grondstoffen",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:exploratiediepegeothermie",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.exploratiediepegeothermie",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geothermalEnergy",
             "broader": "concept:grondstoffen",
             "broaderTransitive": "concept:grondstoffen",
             "definition": "Boring uitgevoerd voor onderzoek naar de beschikbaarheid van warmte voor gebruik in diepe geothermie.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:geothermalEnergy",
-            "narrowMatch": "insp_bhp:geothermalEnergy",
-            "narrower": "insp_bhp:geothermalEnergy",
-            "narrowerTransitive": "insp_bhp:geothermalEnergy",
             "notation": "exploratiediepegeothermie",
             "note": "Boring uitgevoerd voor onderzoek naar de beschikbaarheid van warmte voor gebruik in diepe geothermie.",
             "prefLabel": "Exploratie diepe geothermie",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "insp_bhp:geothermalEnergy"
-            ],
+            "semanticRelation": "concept:grondstoffen",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:exploratieenergiebronnen",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.exploratieenergiebronnen",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/explorationExploitationEnergyResources",
             "definition": "Boring uitgevoerd voor onderzoek naar de beschikbaarheid van energie bronnen.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:explorationExploitationEnergyResources",
-            "narrowMatch": "insp_bhp:explorationExploitationEnergyResources",
-            "narrower": "insp_bhp:explorationExploitationEnergyResources",
-            "narrowerTransitive": "insp_bhp:explorationExploitationEnergyResources",
             "notation": "exploratieenergiebronnen",
             "note": "Boring uitgevoerd voor onderzoek naar de beschikbaarheid van energie bronnen.",
             "prefLabel": "Exploratie energie bronnen",
-            "semanticRelation": "insp_bhp:explorationExploitationEnergyResources",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:exploratiekoolwaterstoffen",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.exploratiekoolwaterstoffen",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/hydrocarbonExploration",
             "broader": "concept:grondstoffen",
             "broaderTransitive": "concept:grondstoffen",
             "definition": "Boring uitgevoerd voor de opsporing van koolwaterstoffen in een niet bewezen gebied.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:hydrocarbonExploration",
-            "narrowMatch": "insp_bhp:hydrocarbonExploration",
-            "narrower": "insp_bhp:hydrocarbonExploration",
-            "narrowerTransitive": "insp_bhp:hydrocarbonExploration",
             "notation": "exploratiekoolwaterstoffen",
             "note": "Boring uitgevoerd voor de opsporing van koolwaterstoffen in een niet bewezen gebied.",
             "prefLabel": "Exploratie koolwaterstoffen",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "insp_bhp:hydrocarbonExploration"
-            ],
+            "semanticRelation": "concept:grondstoffen",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
@@ -1108,79 +569,57 @@
             "broaderTransitive": "concept:grondstoffen",
             "definition": "Boring uitgevoerd voor onderzoek naar de beschikbaarheid van minerale bronnen.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:mineralExplorationExtraction",
-            "narrowMatch": "insp_bhp:mineralExplorationExtraction",
-            "narrower": "insp_bhp:mineralExplorationExtraction",
-            "narrowerTransitive": "insp_bhp:mineralExplorationExtraction",
             "notation": "exploratiemineralebronnen",
-            "note": "Boring uitgevoerd voor onderzoek naar de beschikbaarheid van minerale bronnen.",
-            "prefLabel": "Exploratie minerale bronnen",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "insp_bhp:mineralExplorationExtraction"
+            "note": [
+                "Boring uitgevoerd voor onderzoek naar de beschikbaarheid van minerale bronnen.",
+                "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/mineralExplorationExtraction"
             ],
+            "prefLabel": "Exploratie minerale bronnen",
+            "semanticRelation": "concept:grondstoffen",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:exploratieondergrondseopslag",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.exploratieondergrondseopslag",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/explorationNaturalUndergroundStorage",
             "definition": "Boring uitgevoerd voor onderzoek naar het vermogen van de ondergrond om diverse materialen op te slaan.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:explorationNaturalUndergroundStorage",
-            "narrowMatch": "insp_bhp:explorationNaturalUndergroundStorage",
-            "narrower": "insp_bhp:explorationNaturalUndergroundStorage",
-            "narrowerTransitive": "insp_bhp:explorationNaturalUndergroundStorage",
             "notation": "exploratieondergrondseopslag",
             "note": "Boring uitgevoerd voor onderzoek naar het vermogen van de ondergrond om diverse materialen op te slaan.",
             "prefLabel": "Exploratie ondergrondse opslag",
-            "semanticRelation": "insp_bhp:explorationNaturalUndergroundStorage",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:geochemischonderzoek",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.geochemischonderzoek",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geochemicalSurvey",
             "definition": "Boring uitgevoerd voor onderzoek naar de geochemische eigenschappen van de (onder)grond en of van porositeitsvloeistoffen.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:geochemicalSurvey",
-            "narrowMatch": "insp_bhp:geochemicalSurvey",
-            "narrower": "insp_bhp:geochemicalSurvey",
-            "narrowerTransitive": "insp_bhp:geochemicalSurvey",
             "notation": "geochemischonderzoek",
             "note": "Boring uitgevoerd voor onderzoek naar de geochemische eigenschappen van de (onder)grond en of van porositeitsvloeistoffen.",
             "prefLabel": "Geochemisch onderzoek",
-            "semanticRelation": "insp_bhp:geochemicalSurvey",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:geofysischonderzoek",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.geofysischonderzoek",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geophysicalSurvey",
             "definition": "Boring uitgevoerd voor onderzoek naar de geofysische eigenschappen van de (onder)grond.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:geophysicalSurvey",
-            "narrowMatch": "insp_bhp:geophysicalSurvey",
-            "narrower": [
-                "concept:schietgat",
-                "insp_bhp:geophysicalSurvey"
-            ],
+            "narrower": "concept:schietgat",
             "narrowerTransitive": [
-                "insp_bhp:flowingShot",
-                "concept:stromendschietgat",
                 "concept:schietgat",
-                "insp_bhp:geophysicalSurvey",
-                "insp_bhp:shotHole"
+                "concept:stromendschietgat"
             ],
             "notation": "geofysischonderzoek",
             "note": "Boring uitgevoerd voor onderzoek naar de geofysische eigenschappen van de (onder)grond.",
             "prefLabel": "Geofysisch onderzoek",
             "semanticRelation": [
-                "insp_bhp:flowingShot",
-                "concept:stromendschietgat",
                 "concept:schietgat",
-                "insp_bhp:geophysicalSurvey",
-                "insp_bhp:shotHole"
+                "concept:stromendschietgat"
             ],
             "topConceptOf": "conceptscheme:doelboringtype"
         },
@@ -1188,114 +627,84 @@
             "id": "concept:geologischonderzoek",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.geologischonderzoek",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geologicalSurvey",
             "definition": "Boring uitgevoerd voor onderzoek naar de geologische opbouw van de (onder)grond.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:geologicalSurvey",
-            "narrowMatch": "insp_bhp:geologicalSurvey",
-            "narrower": "insp_bhp:geologicalSurvey",
-            "narrowerTransitive": "insp_bhp:geologicalSurvey",
             "notation": "geologischonderzoek",
             "note": "Boring uitgevoerd voor onderzoek naar de geologische opbouw van de (onder)grond.",
             "prefLabel": "Geologisch onderzoek",
-            "semanticRelation": "insp_bhp:geologicalSurvey",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:geotechnischonderzoek",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.geotechnischonderzoek",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geotechnicalSurvey",
             "definition": "Boring uitgevoerd voor onderzoek naar de fysische en mechanische eigenschappen van de ondergrond gerelateerd aan bouw- en infrastructuurwerken.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:geotechnicalSurvey",
-            "narrowMatch": "insp_bhp:geotechnicalSurvey",
-            "narrower": "insp_bhp:geotechnicalSurvey",
-            "narrowerTransitive": "insp_bhp:geotechnicalSurvey",
             "notation": "geotechnischonderzoek",
             "note": "Boring uitgevoerd voor onderzoek naar de fysische en mechanische eigenschappen van de ondergrond gerelateerd aan bouw- en infrastructuurwerken.",
             "prefLabel": "Geotechnisch onderzoek",
-            "semanticRelation": "insp_bhp:geotechnicalSurvey",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:geothermie",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.geothermie",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geothermalEnergy",
             "altLabel": "Ondiepe geothermie",
             "broader": "concept:grondstoffen",
             "broaderTransitive": "concept:grondstoffen",
             "definition": "Boring uitgevoerd voor ondiepe geothemische energie opslag in een boorgat (BEO, bodemlus, BTES) of voor koude-warmteopslag (KWO, WKO, ATES).",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:geothermalEnergy",
-            "narrowMatch": "insp_bhp:geothermalEnergy",
-            "narrower": "insp_bhp:geothermalEnergy",
-            "narrowerTransitive": "insp_bhp:geothermalEnergy",
             "notation": "geothermie",
             "note": "Boring uitgevoerd voor ondiepe geothemische energie opslag in een boorgat (BEO, bodemlus, BTES) of voor koude-warmteopslag (KWO, WKO, ATES).",
             "prefLabel": "Geothermie",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "insp_bhp:geothermalEnergy"
-            ],
+            "semanticRelation": "concept:grondstoffen",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:grondstoffen",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.grondstoffen",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/explorationExploitationRawMaterial",
             "definition": "Boring uitgevoerd voor de opsporing en ontginning van grondstoffen.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:explorationExploitationRawMaterial",
-            "narrowMatch": "insp_bhp:explorationExploitationRawMaterial",
             "narrower": [
-                "concept:mineraleafzettingen",
-                "insp_bhp:explorationExploitationRawMaterial",
                 "concept:exploitatiediepegeothermie",
-                "concept:exploratiediepegeothermie",
-                "concept:geothermie",
-                "concept:waardebepalingkoolwaterstoffen",
-                "concept:exploratiekoolwaterstoffen",
                 "concept:exploitatiekoolwaterstoffen",
                 "concept:exploitatiemineralebronnen",
-                "concept:exploratiemineralebronnen"
+                "concept:exploratiediepegeothermie",
+                "concept:exploratiekoolwaterstoffen",
+                "concept:exploratiemineralebronnen",
+                "concept:geothermie",
+                "concept:mineraleafzettingen",
+                "concept:waardebepalingkoolwaterstoffen"
             ],
             "narrowerTransitive": [
-                "insp_bhp:explorationExploitationNonmetallicMineralDeposits",
-                "concept:mineraleafzettingen",
-                "insp_bhp:explorationExploitationRawMaterial",
-                "insp_bhp:geothermalEnergy",
                 "concept:exploitatiediepegeothermie",
-                "concept:exploratiediepegeothermie",
-                "concept:geothermie",
-                "insp_bhp:hydrocarbonAppraisal",
-                "concept:waardebepalingkoolwaterstoffen",
-                "insp_bhp:hydrocarbonExploration",
-                "concept:exploratiekoolwaterstoffen",
-                "insp_bhp:hydrocarbonProduction",
                 "concept:exploitatiekoolwaterstoffen",
-                "insp_bhp:mineralExplorationExtraction",
                 "concept:exploitatiemineralebronnen",
-                "concept:exploratiemineralebronnen"
+                "concept:exploratiediepegeothermie",
+                "concept:exploratiekoolwaterstoffen",
+                "concept:exploratiemineralebronnen",
+                "concept:geothermie",
+                "concept:mineraleafzettingen",
+                "concept:waardebepalingkoolwaterstoffen"
             ],
             "notation": "grondstoffen",
             "note": "Boring uitgevoerd voor de opsporing en ontginning van grondstoffen.",
             "prefLabel": "Opsporing en ontginning van grondstoffen",
             "semanticRelation": [
-                "insp_bhp:explorationExploitationNonmetallicMineralDeposits",
-                "concept:mineraleafzettingen",
-                "insp_bhp:explorationExploitationRawMaterial",
-                "insp_bhp:geothermalEnergy",
                 "concept:exploitatiediepegeothermie",
-                "concept:exploratiediepegeothermie",
-                "concept:geothermie",
-                "insp_bhp:hydrocarbonAppraisal",
-                "concept:waardebepalingkoolwaterstoffen",
-                "insp_bhp:hydrocarbonExploration",
-                "concept:exploratiekoolwaterstoffen",
-                "insp_bhp:hydrocarbonProduction",
                 "concept:exploitatiekoolwaterstoffen",
-                "insp_bhp:mineralExplorationExtraction",
                 "concept:exploitatiemineralebronnen",
-                "concept:exploratiemineralebronnen"
+                "concept:exploratiediepegeothermie",
+                "concept:exploratiekoolwaterstoffen",
+                "concept:exploratiemineralebronnen",
+                "concept:geothermie",
+                "concept:mineraleafzettingen",
+                "concept:waardebepalingkoolwaterstoffen"
             ],
             "topConceptOf": "conceptscheme:doelboringtype"
         },
@@ -1314,79 +723,57 @@
             "id": "concept:grondwaterkwaliteitmonitoring",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.grondwaterkwaliteitmonitoring",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/waterQualityMonitoring",
             "broader": "concept:grondwatermonitoring",
             "broaderTransitive": "concept:grondwatermonitoring",
             "definition": "Boring uitgevoerd voor de monitoring van de kwaliteit of chemische samenstelling van het grondwater.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:waterQualityMonitoring",
-            "narrowMatch": "insp_bhp:waterQualityMonitoring",
-            "narrower": "insp_bhp:waterQualityMonitoring",
-            "narrowerTransitive": "insp_bhp:waterQualityMonitoring",
             "notation": "grondwaterkwaliteitmonitoring",
             "note": "Boring uitgevoerd voor de monitoring van de kwaliteit of chemische samenstelling van het grondwater.",
             "prefLabel": "Grondwaterkwaliteit monitoring",
-            "semanticRelation": [
-                "concept:grondwatermonitoring",
-                "insp_bhp:waterQualityMonitoring"
-            ],
+            "semanticRelation": "concept:grondwatermonitoring",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:grondwaterkwantiteitmonitoring",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.grondwaterkwantiteitmonitoring",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/groundwaterLevelMonitoring",
             "broader": "concept:grondwatermonitoring",
             "broaderTransitive": "concept:grondwatermonitoring",
             "definition": "Boring uitgevoerd voor de monitoring van de kwantiteit of het niveau van het grondwater.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:groundwaterLevelMonitoring",
-            "narrowMatch": "insp_bhp:groundwaterLevelMonitoring",
-            "narrower": "insp_bhp:groundwaterLevelMonitoring",
-            "narrowerTransitive": "insp_bhp:groundwaterLevelMonitoring",
             "notation": "grondwaterkwantiteitmonitoring",
             "note": "Boring uitgevoerd voor de monitoring van de kwantiteit of het niveau van het grondwater.",
             "prefLabel": "Grondwaterkwantiteit monitoring",
-            "semanticRelation": [
-                "concept:grondwatermonitoring",
-                "insp_bhp:groundwaterLevelMonitoring"
-            ],
+            "semanticRelation": "concept:grondwatermonitoring",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:grondwatermonitoring",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.grondwatermonitoring",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/environmentalMonitoring",
             "altLabel": "Milieumonitoring, Environmental monitoring",
             "definition": "Boring uitgevoerd voor de monitoring van de kwaliteit en/of kwantiteit van het grondwater.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:environmentalMonitoring",
-            "narrowMatch": "insp_bhp:environmentalMonitoring",
             "narrower": [
-                "insp_bhp:environmentalMonitoring",
+                "concept:grondwaterkwaliteitmonitoring",
                 "concept:grondwaterkwantiteitmonitoring",
-                "concept:monitoringvervuildesites",
-                "concept:grondwaterkwaliteitmonitoring"
+                "concept:monitoringvervuildesites"
             ],
             "narrowerTransitive": [
-                "insp_bhp:environmentalMonitoring",
-                "insp_bhp:groundwaterLevelMonitoring",
+                "concept:grondwaterkwaliteitmonitoring",
                 "concept:grondwaterkwantiteitmonitoring",
-                "insp_bhp:pollutionMonitoring",
-                "concept:monitoringvervuildesites",
-                "insp_bhp:waterQualityMonitoring",
-                "concept:grondwaterkwaliteitmonitoring"
+                "concept:monitoringvervuildesites"
             ],
             "notation": "grondwatermonitoring",
             "note": "Boring uitgevoerd voor de monitoring van de kwaliteit en/of kwantiteit van het grondwater.",
             "prefLabel": "Grondwatermonitoring",
             "semanticRelation": [
-                "insp_bhp:environmentalMonitoring",
-                "insp_bhp:groundwaterLevelMonitoring",
+                "concept:grondwaterkwaliteitmonitoring",
                 "concept:grondwaterkwantiteitmonitoring",
-                "insp_bhp:pollutionMonitoring",
-                "concept:monitoringvervuildesites",
-                "insp_bhp:waterQualityMonitoring",
-                "concept:grondwaterkwaliteitmonitoring"
+                "concept:monitoringvervuildesites"
             ],
             "topConceptOf": "conceptscheme:doelboringtype"
         },
@@ -1394,51 +781,35 @@
             "id": "concept:grondwaterwinning",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.grondwaterwinning",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/waterSupply",
             "definition": "Boring uitgevoerd voor winning van grondwater ten behoeve van watervoorziening.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:waterSupply",
-            "narrowMatch": "insp_bhp:waterSupply",
             "narrower": [
-                "concept:watercultuur",
-                "concept:reservewatervoorziening",
                 "concept:drinkwatervoorziening",
-                "concept:noodwatervoorziening",
                 "concept:industrielewatervoorziening",
                 "concept:irrigatie",
-                "insp_bhp:waterSupply"
+                "concept:noodwatervoorziening",
+                "concept:reservewatervoorziening",
+                "concept:watercultuur"
             ],
             "narrowerTransitive": [
-                "insp_bhp:aquaculture",
-                "concept:watercultuur",
-                "insp_bhp:contingencyWaterSupply",
-                "concept:reservewatervoorziening",
-                "insp_bhp:drinkingWaterSupply",
                 "concept:drinkwatervoorziening",
-                "insp_bhp:emergencyWaterSupply",
-                "concept:noodwatervoorziening",
-                "insp_bhp:industrialWaterSupply",
                 "concept:industrielewatervoorziening",
-                "insp_bhp:irrigation",
                 "concept:irrigatie",
-                "insp_bhp:waterSupply"
+                "concept:noodwatervoorziening",
+                "concept:reservewatervoorziening",
+                "concept:watercultuur"
             ],
             "notation": "grondwaterwinning",
             "note": "Boring uitgevoerd voor winning van grondwater ten behoeve van watervoorziening.",
             "prefLabel": "Grondwaterwinning",
             "semanticRelation": [
-                "insp_bhp:aquaculture",
-                "concept:watercultuur",
-                "insp_bhp:contingencyWaterSupply",
-                "concept:reservewatervoorziening",
-                "insp_bhp:drinkingWaterSupply",
                 "concept:drinkwatervoorziening",
-                "insp_bhp:emergencyWaterSupply",
-                "concept:noodwatervoorziening",
-                "insp_bhp:industrialWaterSupply",
                 "concept:industrielewatervoorziening",
-                "insp_bhp:irrigation",
                 "concept:irrigatie",
-                "insp_bhp:waterSupply"
+                "concept:noodwatervoorziening",
+                "concept:reservewatervoorziening",
+                "concept:watercultuur"
             ],
             "topConceptOf": "conceptscheme:doelboringtype"
         },
@@ -1446,74 +817,54 @@
             "id": "concept:hydrogeologischonderzoek",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.hydrogeologischonderzoek",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/hydrogeologicalSurvey",
             "definition": "Boring uitgevoerd voor onderzoek naar grondwaterstroming, de chemische eigenschappen van grondwater, en transport van deeltjes, opgeloste stoffen en energie, evenals het management van het duurzame gebruik van grondwaterbronnen.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:hydrogeologicalSurvey",
-            "narrowMatch": "insp_bhp:hydrogeologicalSurvey",
-            "narrower": "insp_bhp:hydrogeologicalSurvey",
-            "narrowerTransitive": "insp_bhp:hydrogeologicalSurvey",
             "notation": "hydrogeologischonderzoek",
             "note": "Boring uitgevoerd voor onderzoek naar grondwaterstroming, de chemische eigenschappen van grondwater, en transport van deeltjes, opgeloste stoffen en energie, evenals het management van het duurzame gebruik van grondwaterbronnen.",
             "prefLabel": "Hydrogeologisch onderzoek",
-            "semanticRelation": "insp_bhp:hydrogeologicalSurvey",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:industrielewatervoorziening",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.industrielewatervoorziening",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/industrialWaterSupply",
             "broader": "concept:grondwaterwinning",
             "broaderTransitive": "concept:grondwaterwinning",
             "definition": "Boring uitgevoerd voor winning van grondwater ten behoeve van industriële watervoorziening.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:industrialWaterSupply",
-            "narrowMatch": "insp_bhp:industrialWaterSupply",
-            "narrower": "insp_bhp:industrialWaterSupply",
-            "narrowerTransitive": "insp_bhp:industrialWaterSupply",
             "notation": "industrielewatervoorziening",
             "note": "Boring uitgevoerd voor winning van grondwater ten behoeve van industriële watervoorziening.",
             "prefLabel": "Industriële watervoorziening",
-            "semanticRelation": [
-                "concept:grondwaterwinning",
-                "insp_bhp:industrialWaterSupply"
-            ],
+            "semanticRelation": "concept:grondwaterwinning",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:infiltratie",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.infiltratie",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/recharge",
             "definition": "Boring uitgevoerd voor het kunstmatig aanvullen van grondwater door injectie uit diverse bronnen.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:recharge",
-            "narrowMatch": "insp_bhp:recharge",
-            "narrower": "insp_bhp:recharge",
-            "narrowerTransitive": "insp_bhp:recharge",
             "notation": "infiltratie",
             "note": "Boring uitgevoerd voor het kunstmatig aanvullen van grondwater door injectie uit diverse bronnen.",
             "prefLabel": "Infiltratie",
-            "semanticRelation": "insp_bhp:recharge",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:irrigatie",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.irrigatie",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/irrigation",
             "broader": "concept:grondwaterwinning",
             "broaderTransitive": "concept:grondwaterwinning",
             "definition": "Boring uitgevoerd voor constructie van bronnen ten behoeve van irrigatie.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:irrigation",
-            "narrowMatch": "insp_bhp:irrigation",
-            "narrower": "insp_bhp:irrigation",
-            "narrowerTransitive": "insp_bhp:irrigation",
             "notation": "irrigatie",
             "note": "Boring uitgevoerd voor constructie van bronnen ten behoeve van irrigatie.",
             "prefLabel": "Irrigatie",
-            "semanticRelation": [
-                "concept:grondwaterwinning",
-                "insp_bhp:irrigation"
-            ],
+            "semanticRelation": "concept:grondwaterwinning",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
@@ -1531,84 +882,60 @@
             "id": "concept:mineraleafzettingen",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.mineraleafzettingen",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/explorationExploitationNonmetallicMineralDeposits",
             "broader": "concept:grondstoffen",
             "broaderTransitive": "concept:grondstoffen",
             "definition": "Boring uitgevoerd voor de opsporing van niet-metallische minerale afzettingen, voornamelijk ten behoeve van de bouw, en de natuursteen-, cement-, aardewerk- of glasindustrie.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:explorationExploitationNonmetallicMineralDeposits",
-            "narrowMatch": "insp_bhp:explorationExploitationNonmetallicMineralDeposits",
-            "narrower": "insp_bhp:explorationExploitationNonmetallicMineralDeposits",
-            "narrowerTransitive": "insp_bhp:explorationExploitationNonmetallicMineralDeposits",
             "notation": "mineraleafzettingen",
             "note": "Boring uitgevoerd voor de opsporing van niet-metallische minerale afzettingen, voornamelijk ten behoeve van de bouw, en de natuursteen-, cement-, aardewerk- of glasindustrie.",
             "prefLabel": "Exploratie en exploitatie van niet-metallische minerale afzettingen",
-            "semanticRelation": [
-                "insp_bhp:explorationExploitationNonmetallicMineralDeposits",
-                "concept:grondstoffen"
-            ],
+            "semanticRelation": "concept:grondstoffen",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:mitigatie",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.mitigatie",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/mitigation",
             "broader": "concept:sanering",
             "broaderTransitive": "concept:sanering",
             "definition": "Boring uitgevoerd voor het verlagen van het grondwaterniveau om te voorkomen dat het grondwater vervuilde plaatsen bereikt.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:mitigation",
-            "narrowMatch": "insp_bhp:mitigation",
-            "narrower": "insp_bhp:mitigation",
-            "narrowerTransitive": "insp_bhp:mitigation",
             "notation": "mitigatie",
             "note": "Boring uitgevoerd voor het verlagen van het grondwaterniveau om te voorkomen dat het grondwater vervuilde plaatsen bereikt.",
             "prefLabel": "Mitigatie",
-            "semanticRelation": [
-                "insp_bhp:mitigation",
-                "concept:sanering"
-            ],
+            "semanticRelation": "concept:sanering",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:monitoringvervuildesites",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.monitoringvervuildesites",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/pollutionMonitoring",
             "broader": "concept:grondwatermonitoring",
             "broaderTransitive": "concept:grondwatermonitoring",
             "definition": "Boring uitgevoerd in het kader van een bodemonderzoek en/of in het kader van bodemdecreet regelgeving.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:pollutionMonitoring",
-            "narrowMatch": "insp_bhp:pollutionMonitoring",
-            "narrower": "insp_bhp:pollutionMonitoring",
-            "narrowerTransitive": "insp_bhp:pollutionMonitoring",
             "notation": "monitoringvervuildesites",
             "note": "Boring uitgevoerd in het kader van een bodemonderzoek en/of in het kader van bodemdecreet regelgeving.",
             "prefLabel": "Monitoring vervuilde sites",
-            "semanticRelation": [
-                "concept:grondwatermonitoring",
-                "insp_bhp:pollutionMonitoring"
-            ],
+            "semanticRelation": "concept:grondwatermonitoring",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:noodwatervoorziening",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.noodwatervoorziening",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/emergencyWaterSupply",
             "broader": "concept:grondwaterwinning",
             "broaderTransitive": "concept:grondwaterwinning",
             "definition": "Boring uitgevoerd voor constructie van bronnen ten behoeve van noodwatervoorziening.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:emergencyWaterSupply",
-            "narrowMatch": "insp_bhp:emergencyWaterSupply",
-            "narrower": "insp_bhp:emergencyWaterSupply",
-            "narrowerTransitive": "insp_bhp:emergencyWaterSupply",
             "notation": "noodwatervoorziening",
             "note": "Boring uitgevoerd voor constructie van bronnen ten behoeve van noodwatervoorziening.",
             "prefLabel": "Noodwatervoorziening",
-            "semanticRelation": [
-                "concept:grondwaterwinning",
-                "insp_bhp:emergencyWaterSupply"
-            ],
+            "semanticRelation": "concept:grondwaterwinning",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
@@ -1626,51 +953,37 @@
             "id": "concept:reservewatervoorziening",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.reservewatervoorziening",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/contingencyWaterSupply",
             "broader": "concept:grondwaterwinning",
             "broaderTransitive": "concept:grondwaterwinning",
             "definition": "Boring uitgevoerd voor constructie van bronnen ten behoeve van reservewatervoorziening.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:contingencyWaterSupply",
-            "narrowMatch": "insp_bhp:contingencyWaterSupply",
-            "narrower": "insp_bhp:contingencyWaterSupply",
-            "narrowerTransitive": "insp_bhp:contingencyWaterSupply",
             "notation": "reservewatervoorziening",
             "note": "Boring uitgevoerd voor constructie van bronnen ten behoeve van reservewatervoorziening.",
             "prefLabel": "Reservewatervoorziening",
-            "semanticRelation": [
-                "concept:grondwaterwinning",
-                "insp_bhp:contingencyWaterSupply"
-            ],
+            "semanticRelation": "concept:grondwaterwinning",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:sanering",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.sanering",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/remediation",
             "definition": "Boring uitgevoerd voor sanering in het algemeen: het verwijderen van vervuiling of verontreiniging uit grondwater, grond en ander gesteente.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:remediation",
-            "narrowMatch": "insp_bhp:remediation",
             "narrower": [
                 "concept:mitigatie",
-                "insp_bhp:remediation",
                 "concept:thermischereiniging"
             ],
             "narrowerTransitive": [
-                "insp_bhp:mitigation",
                 "concept:mitigatie",
-                "insp_bhp:remediation",
-                "insp_bhp:thermalCleaning",
                 "concept:thermischereiniging"
             ],
             "notation": "sanering",
             "note": "Boring uitgevoerd voor sanering in het algemeen: het verwijderen van vervuiling of verontreiniging uit grondwater, grond en ander gesteente.",
             "prefLabel": "Sanering",
             "semanticRelation": [
-                "insp_bhp:mitigation",
                 "concept:mitigatie",
-                "insp_bhp:remediation",
-                "insp_bhp:thermalCleaning",
                 "concept:thermischereiniging"
             ],
             "topConceptOf": "conceptscheme:doelboringtype"
@@ -1679,29 +992,19 @@
             "id": "concept:schietgat",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.schietgat",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/shotHole",
             "broader": "concept:geofysischonderzoek",
             "broaderTransitive": "concept:geofysischonderzoek",
             "definition": "Boring uitgevoerd voor seismisch onderzoek waarbij explosieven in schietgaten worden gestopt",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:shotHole",
-            "narrowMatch": "insp_bhp:shotHole",
-            "narrower": [
-                "concept:stromendschietgat",
-                "insp_bhp:shotHole"
-            ],
-            "narrowerTransitive": [
-                "insp_bhp:flowingShot",
-                "concept:stromendschietgat",
-                "insp_bhp:shotHole"
-            ],
+            "narrower": "concept:stromendschietgat",
+            "narrowerTransitive": "concept:stromendschietgat",
             "notation": "schietgat",
             "note": "Boring uitgevoerd voor seismisch onderzoek waarbij explosieven in schietgaten worden gestopt",
             "prefLabel": "Schietgat",
             "semanticRelation": [
-                "insp_bhp:flowingShot",
-                "concept:stromendschietgat",
                 "concept:geofysischonderzoek",
-                "insp_bhp:shotHole"
+                "concept:stromendschietgat"
             ],
             "topConceptOf": "conceptscheme:doelboringtype"
         },
@@ -1709,6 +1012,7 @@
             "id": "concept:stromendschietgat",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.stromendschietgat",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/flowingShot",
             "broader": "concept:schietgat",
             "broaderTransitive": [
                 "concept:geofysischonderzoek",
@@ -1716,15 +1020,10 @@
             ],
             "definition": "Boring uitgevoerd voor seismisch onderzoek waarbij het boorgat een ondergrondse waterbron heeft geraakt die voldoende druk heeft om het gat te laten overstromen.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:flowingShot",
-            "narrowMatch": "insp_bhp:flowingShot",
-            "narrower": "insp_bhp:flowingShot",
-            "narrowerTransitive": "insp_bhp:flowingShot",
             "notation": "stromendschietgat",
             "note": "Boring uitgevoerd voor seismisch onderzoek waarbij het boorgat een ondergrondse waterbron heeft geraakt die voldoende druk heeft om het gat te laten overstromen.",
             "prefLabel": "Stromend schietgat",
             "semanticRelation": [
-                "insp_bhp:flowingShot",
                 "concept:geofysischonderzoek",
                 "concept:schietgat"
             ],
@@ -1734,63 +1033,45 @@
             "id": "concept:thermischereiniging",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.thermischereiniging",
+            "seeAlso": "https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/thermalCleaning",
             "broader": "concept:sanering",
             "broaderTransitive": "concept:sanering",
             "definition": "Boring uitgevoerd voor het in situ reinigen van grond met gebruik van warmte.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:thermalCleaning",
-            "narrowMatch": "insp_bhp:thermalCleaning",
-            "narrower": "insp_bhp:thermalCleaning",
-            "narrowerTransitive": "insp_bhp:thermalCleaning",
             "notation": "thermische reiniging",
             "note": "Boring uitgevoerd voor het in situ reinigen van grond met gebruik van warmte.",
             "prefLabel": "Thermische reiniging",
-            "semanticRelation": [
-                "concept:sanering",
-                "insp_bhp:thermalCleaning"
-            ],
+            "semanticRelation": "concept:sanering",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:waardebepalingkoolwaterstoffen",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.waardebepalingkoolwaterstoffen",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/hydrocarbonAppraisal",
             "broader": "concept:grondstoffen",
             "broaderTransitive": "concept:grondstoffen",
             "definition": "Boring uitgevoerd voor het beoordelen van de kenmerken van een bewezen ophoping van koolwaterstoffen.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:hydrocarbonAppraisal",
-            "narrowMatch": "insp_bhp:hydrocarbonAppraisal",
-            "narrower": "insp_bhp:hydrocarbonAppraisal",
-            "narrowerTransitive": "insp_bhp:hydrocarbonAppraisal",
             "notation": "waardebepalingkoolwaterstoffen",
             "note": "Boring uitgevoerd voor het beoordelen van de kenmerken van een bewezen ophoping van koolwaterstoffen.",
             "prefLabel": "Waardebepaling koolwaterstoffen",
-            "semanticRelation": [
-                "concept:grondstoffen",
-                "insp_bhp:hydrocarbonAppraisal"
-            ],
+            "semanticRelation": "concept:grondstoffen",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
             "id": "concept:watercultuur",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.watercultuur",
+            "seeAlso": "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/aquaculture",
             "broader": "concept:grondwaterwinning",
             "broaderTransitive": "concept:grondwaterwinning",
             "definition": "Boring uitgevoerd voor winning van grondwater ten behoeve van aquacultuur.",
             "inScheme": "conceptscheme:doelboringtype",
-            "mappingRelation": "insp_bhp:aquaculture",
-            "narrowMatch": "insp_bhp:aquaculture",
-            "narrower": "insp_bhp:aquaculture",
-            "narrowerTransitive": "insp_bhp:aquaculture",
             "notation": "watercultuur",
             "note": "Boring uitgevoerd voor winning van grondwater ten behoeve van aquacultuur.",
             "prefLabel": "Watercultuur",
-            "semanticRelation": [
-                "insp_bhp:aquaculture",
-                "concept:grondwaterwinning"
-            ],
+            "semanticRelation": "concept:grondwaterwinning",
             "topConceptOf": "conceptscheme:doelboringtype"
         },
         {
@@ -1799,39 +1080,47 @@
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.doelboringtype",
             "definition": "Beschrijving van het doel waarvoor de boring is uitgevoerd.",
             "hasTopConcept": [
-                "concept:watercultuur",
-                "concept:grondwaterwinning",
-                "concept:reservewatervoorziening",
-                "concept:drainagebemaling",
-                "concept:drinkwatervoorziening",
-                "concept:noodwatervoorziening",
-                "concept:grondwatermonitoring",
-                "concept:exploitatieenergiebronnen",
-                "concept:exploratieenergiebronnen",
-                "concept:mineraleafzettingen",
-                "concept:grondstoffen",
+                "concept:archeologischonderzoek",
                 "concept:berging",
+                "concept:bodemkundigonderzoek",
+                "concept:drainagebemaling",
+                "concept:exploitatieenergiebronnen",
+                "concept:drinkwatervoorziening",
+                "concept:grondwaterwinning",
+                "concept:exploitatiediepegeothermie",
+                "concept:grondstoffen",
+                "concept:exploitatiekoolwaterstoffen",
+                "concept:exploitatiemineralebronnen",
+                "concept:exploratiediepegeothermie",
+                "concept:exploratieenergiebronnen",
+                "concept:exploratiekoolwaterstoffen",
+                "concept:exploratiemineralebronnen",
                 "concept:exploratieondergrondseopslag",
-                "concept:stromendschietgat",
+                "concept:geochemischonderzoek",
                 "concept:geofysischonderzoek",
                 "concept:schietgat",
-                "concept:geochemischonderzoek",
+                "concept:stromendschietgat",
                 "concept:geologischonderzoek",
                 "concept:geotechnischonderzoek",
-                "concept:exploitatiediepegeothermie",
-                "concept:exploratiediepegeothermie",
                 "concept:geothermie",
-                "concept:grondwaterkwantiteitmonitoring",
+                "concept:mineraleafzettingen",
                 "concept:waardebepalingkoolwaterstoffen",
-                "concept:exploratiekoolwaterstoffen",
-                "concept:exploitatiekoolwaterstoffen",
-                "concept:hydrogeologischonderzoek",
+                "concept:grondverzet",
+                "concept:grondwaterkwaliteitmonitoring",
+                "concept:grondwatermonitoring",
+                "concept:grondwaterkwantiteitmonitoring",
+                "concept:monitoringvervuildesites",
                 "concept:industrielewatervoorziening",
                 "concept:irrigatie",
-                "concept:exploitatiemineralebronnen",
-                "concept:exploratiemineralebronnen",
+                "concept:noodwatervoorziening",
+                "concept:reservewatervoorziening",
+                "concept:watercultuur",
+                "concept:hydrogeologischonderzoek",
+                "concept:infiltratie",
+                "concept:kathodischebescherming",
                 "concept:mitigatie",
                 "concept:sanering",
+<<<<<<< HEAD
                 "concept:bodemkundigonderzoek",
                 "concept:monitoringvervuildesites",
                 "concept:infiltratie",
@@ -1841,6 +1130,9 @@
                 "concept:grondverzet",
                 "concept:kathodischebescherming",
                 "concept:opvullenboorgatput"
+=======
+                "concept:thermischereiniging"
+>>>>>>> parent of b4d61ad (https://github.com/bodemenondergrond/codelijst-doelboringtype/issues/1)
             ],
             "notation": "doelboringtype",
             "note": "Beschrijving van het doel waarvoor de boring is uitgevoerd.",
