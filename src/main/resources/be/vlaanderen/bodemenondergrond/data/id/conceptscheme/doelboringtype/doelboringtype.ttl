@@ -64,7 +64,7 @@ concept:archeologischonderzoek dc:identifier "be.vlaanderen.bodemenondergrond.da
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:berging dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.berging";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/explorationNaturalUndergroundStorage>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/explorationNaturalUndergroundStorage>;
     skos:definition "Boring uitgevoerd voor onderzoek naar het vermogen van de ondergrond om diverse materialen op te slaan of voor de berging of veilige opslag van o.a. afval, gas, koolstofdioxide."@nl;
     skos:inScheme conceptscheme:doelboringtype;
     skos:notation "berging";
@@ -73,7 +73,7 @@ concept:berging dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.d
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:bodemkundigonderzoek dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.bodemkundigonderzoek";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/pedologicalSurvey>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/pedologicalSurvey>;
     skos:definition "Boring uitgevoerd voor het karakteriseren van bodem of grond."@nl;
     skos:inScheme conceptscheme:doelboringtype;
     skos:notation "bodemkundigonderzoek";
@@ -82,7 +82,7 @@ concept:bodemkundigonderzoek dc:identifier "be.vlaanderen.bodemenondergrond.data
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:drainagebemaling dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.drainagebemaling";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/dewatering>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/dewatering>;
     skos:definition "Boring uitgevoerd voor het permanent of tijdelijk draineren of verwijderen van water."@nl;
     skos:inScheme conceptscheme:doelboringtype;
     skos:narrower concept:exploitatieenergiebronnen;
@@ -207,7 +207,7 @@ concept:exploratieondergrondseopslag dc:identifier "be.vlaanderen.bodemenondergr
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:geochemischonderzoek dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.geochemischonderzoek";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geochemicalSurvey>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geochemicalSurvey>;
     skos:definition "Boring uitgevoerd voor onderzoek naar de geochemische eigenschappen van de (onder)grond en of van porositeitsvloeistoffen."@nl;
     skos:inScheme conceptscheme:doelboringtype;
     skos:notation "geochemischonderzoek";
@@ -228,7 +228,7 @@ concept:geofysischonderzoek dc:identifier "be.vlaanderen.bodemenondergrond.data.
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:geologischonderzoek dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.geologischonderzoek";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geologicalSurvey>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geologicalSurvey>;
     skos:definition "Boring uitgevoerd voor onderzoek naar de geologische opbouw van de (onder)grond."@nl;
     skos:inScheme conceptscheme:doelboringtype;
     skos:notation "geologischonderzoek";
@@ -237,7 +237,7 @@ concept:geologischonderzoek dc:identifier "be.vlaanderen.bodemenondergrond.data.
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:geotechnischonderzoek dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.geotechnischonderzoek";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geotechnicalSurvey>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/geotechnicalSurvey>;
     skos:definition "Boring uitgevoerd voor onderzoek naar de fysische en mechanische eigenschappen van de ondergrond gerelateerd aan bouw- en infrastructuurwerken."@nl;
     skos:inScheme conceptscheme:doelboringtype;
     skos:notation "geotechnischonderzoek";
@@ -291,7 +291,7 @@ concept:grondwaterkwaliteitmonitoring dc:identifier "be.vlaanderen.bodemenonderg
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:grondwaterkwantiteitmonitoring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.grondwaterkwantiteitmonitoring";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/groundwaterLevelMonitoring>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/groundwaterLevelMonitoring>;
     skos:broader concept:grondwatermonitoring;
     skos:broaderTransitive concept:grondwatermonitoring;
     skos:definition "Boring uitgevoerd voor de monitoring van de kwantiteit of het niveau van het grondwater."@nl;
@@ -303,7 +303,7 @@ concept:grondwaterkwantiteitmonitoring dc:identifier "be.vlaanderen.bodemenonder
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:grondwatermonitoring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.grondwatermonitoring";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/environmentalMonitoring>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/environmentalMonitoring>;
     skos:altLabel "Milieumonitoring, Environmental monitoring"@nl;
     skos:definition "Boring uitgevoerd voor de monitoring van de kwaliteit en/of kwantiteit van het grondwater."@nl;
     skos:inScheme conceptscheme:doelboringtype;
@@ -328,7 +328,7 @@ concept:grondwaterwinning dc:identifier "be.vlaanderen.bodemenondergrond.data.id
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:hydrogeologischonderzoek dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.hydrogeologischonderzoek";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/hydrogeologicalSurvey>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/hydrogeologicalSurvey>;
     skos:definition "Boring uitgevoerd voor onderzoek naar grondwaterstroming, de chemische eigenschappen van grondwater, en transport van deeltjes, opgeloste stoffen en energie, evenals het management van het duurzame gebruik van grondwaterbronnen."@nl;
     skos:inScheme conceptscheme:doelboringtype;
     skos:notation "hydrogeologischonderzoek";
@@ -402,7 +402,7 @@ concept:mitigatie dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:monitoringvervuildesites dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.monitoringvervuildesites";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/pollutionMonitoring>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/pollutionMonitoring>;
     skos:broader concept:grondwatermonitoring;
     skos:broaderTransitive concept:grondwatermonitoring;
     skos:definition "Boring uitgevoerd in het kader van een bodemonderzoek en/of in het kader van bodemdecreet regelgeving."@nl;
@@ -446,7 +446,7 @@ concept:reservewatervoorziening dc:identifier "be.vlaanderen.bodemenondergrond.d
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:sanering dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.sanering";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/remediation>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/remediation>;
     skos:definition "Boring uitgevoerd voor sanering in het algemeen: het verwijderen van vervuiling of verontreiniging uit grondwater, grond en ander gesteente."@nl;
     skos:inScheme conceptscheme:doelboringtype;
     skos:narrower concept:mitigatie, concept:thermischereiniging;
@@ -484,7 +484,7 @@ concept:stromendschietgat dc:identifier "be.vlaanderen.bodemenondergrond.data.id
     skos:topConceptOf conceptscheme:doelboringtype.
 concept:thermischereiniging dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.doelboringtype.thermischereiniging";
     a skos:Concept;
-    rdfs:seeAlso <https://inspire.ec.europa.eu/codelist/BoreholePurposeValue/thermalCleaning>;
+    rdfs:seeAlso <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/thermalCleaning>;
     skos:broader concept:sanering;
     skos:broaderTransitive concept:sanering;
     skos:definition "Boring uitgevoerd voor het in situ reinigen van grond met gebruik van warmte."@nl;

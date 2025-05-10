@@ -29,12 +29,12 @@ beo_ont:doelboringtype
     dct:alternative "Doelboringtypes AP Shapes"@en ;
     dct:creator     beo_ag_cl:creator ;
     dct:description "Dit is de SHACL encodering van het applicatieprofiel van een Doelboringtypes dat de eerste stap van de transformatie vanuit csv controleert."@en ;
-    dct:issued      "2023-10-23"^^xsd:date ;
+    dct:issued      "2025-05-10"^^xsd:date ;
     dct:title       "Doelboringtypes AP Constraints Limited"@en ;
     xkos:belongsTo  beo_dataset:codelijst-doelboringtype ;
     xhv:last        beo_voc:doelboringtype ;
     owl:sameAs      beo_voc:doelboringtype ;
-    owl:versionInfo "Versie 3.0.0  maart 2024"@en .
+    owl:versionInfo "Versie 1.0.0 mei 2025"@en .
 
 
 beo_voc:doelboringtype
@@ -75,8 +75,6 @@ ons:collection
                      omg_ps:inScheme, omg_ps:rdf_type;
     sh:closed true ;
     sh:targetClass   skos:Collection .
-
-
 
 ons:concept
     a                sh:NodeShape ;
