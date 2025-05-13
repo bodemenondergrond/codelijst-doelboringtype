@@ -89,7 +89,7 @@ ons:concept
                      omg_ps:topConceptOf, omg_ps:altLabel, omg_ps:dc_identifier,
                      omg_ps:rdf_type, omg_ps:note, omg_ps:broaderTransitive, omg_ps:broader,
                      omg_ps:narrowerTransitive, omg_ps:narrower, omg_ps:semanticRelation ,
-                     omg_ps:seeAlso, omg_ps:exactMatch,omg_ps:conformsTo;
+                     omg_ps:seeAlso, omg_ps:exactMatch,omg_ps:conformsTo, omg_ps:mappingRelation , omg_ps:closeMatch;
     sh:closed true ;
     sh:targetClass   skos:Concept .
 
@@ -232,6 +232,14 @@ omg_ps:collection_member
     sh:path          skos:member .
 
 
+omg_ps:mappingRelation
+            a                sh:PropertyShape ;
+            rdfs:label       "heeft mapping relatie"@en ;
+            sh:name          "heeft mapping relatie"@en ;
+            sh:description   "skos:mappingRelation wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@en ;
+            rdfs:isDefinedBy beo_ont:doelboringtype, beo_voc:doelboringtype ;
+            sh:nodeKind      sh:IRI ;
+            sh:path          skos:mappingRelation .
 
 omg_ps:exactMatch
     a                sh:PropertyShape ;
@@ -241,6 +249,14 @@ omg_ps:exactMatch
     rdfs:isDefinedBy beo_ont:doelboringtype, beo_voc:doelboringtype ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:exactMatch .
+
+omg_ps:closeMatch  a                sh:PropertyShape ;
+                   rdfs:label       "heeft nauwe overeenkomst"@en ;
+                   sh:name          "heeft nauwe overeenkomst"@en ;
+                   sh:description   "skos:closeMatch wordt gebruikt om twee concepten te koppelen, wat aangeeft dat er een hoge mate van vertrouwen bestaat dat de concepten onderling uitwisselbaar kunnen worden gebruikt in een breed scala aan toepassingen voor het ophalen van informatie. skos:exactMatch is een transitieve eigenschap en is een subeigenschap van skos:closeMatch"@en ;
+                   rdfs:isDefinedBy beo_ont:doelboringtype, beo_voc:doelboringtype ;
+                   sh:nodeKind      sh:IRI ;
+                   sh:path          skos:closeMatch .
 
 omg_ps:notation
     a                sh:PropertyShape ;
@@ -318,7 +334,6 @@ omg_ps:prefLabel
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" ) ;
     sh:maxCount      1 ;
-    sh:minCount      1 ;
     sh:nodeKind      sh:Literal ;
     sh:path          skos:prefLabel .
 
@@ -356,6 +371,5 @@ omg_ps:inScheme
     rdfs:isDefinedBy beo_ont:doelboringtype, beo_voc:doelboringtype ;
     sh:class         skos:ConceptScheme ;
     sh:maxCount      1 ;
-    sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          skos:inScheme .
