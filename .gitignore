@@ -12,3 +12,4 @@ node_modules/
 codelijst-doelboringtype.iml
 src/.env
 src/utils/setenv.js
+/temp/
